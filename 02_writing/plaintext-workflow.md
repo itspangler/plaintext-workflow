@@ -6,6 +6,7 @@ This lab will get you started with plaintext writing. By the end of it, you will
 
   * have a better sense of why one would choose to work in plaintext
   * understand key languages/softwares associated with writing in plaintext (Markdown, a text editor)
+  * have successfully set up a plaintext writing environment
   * be able to execute basic document conversion tasks (pandoc, LaTeX)
   * use Zotero to manage citations in plaintext (BibTeX)
 
@@ -16,7 +17,7 @@ Also, it's okay to hate this exercise and this workflow for writing. Even if tha
 Good luck!
 
 1. [On writing](#1-on-writing)
-2. [Why plaintext?](#2-why-plaintext)
+<!-- 2. [Why plaintext?](#2-why-plaintext) -->
 3. [Getting started in plaintext](#3-getting-started-in-plaintext)
 
 ## 1. On writing
@@ -41,12 +42,14 @@ Writing is a political proposition.
 >
 >—Alice Walker, *In Search of our Mothers' Gardens*
 
-## 2. Why plaintext?
+## 2. Getting started in plaintext
 
-As academics, we have a complicated relationship to writing. We are constantly doing it. Sometimes we write for six hours and produce a paragraph; sometimes we write for an hour and produce six. We write papers for class, notes for seminars, letters of recommendation, lengthy emails, short emails, emails that never get sent, feedback for our students, grants, proposals, exams, research materials, theses, and dissertations.
+### 2.1. What is plaintext and why use it?
+
+As academics, we have a complicated relationship to writing. We are constantly doing it. Sometimes we write for six hours and produce a paragraph; sometimes we write for an hour and produce six. We write papers for class, notes for seminars, letters of recommendation, lengthy emails, short emails, emails that never get sent, feedback for our students, grants, proposals, exams, exam answers, research materials, theses, dissertations... the list goes on.
 
 All of this falls more or less into the broad category of "scholarly writing," at least insofar as it's stuff that we have to do for our jobs as scholars. Especially the Big Things---grants, dissertations, and journal manuscripts, for example---require some kind of established workflow.
 
-## 3. Getting started in plaintext
+In this lab, you'll be introduced to one such workflow: **Plaintext writing**.
 
-### 3.1.
+"Plaintext" refers to text with no style, formatting, or
