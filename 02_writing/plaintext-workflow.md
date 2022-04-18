@@ -29,9 +29,11 @@ This lab borrows a lot from Scott Selisker's "[A Plain Text Workflow for Academi
 
 ### 2.1. Why write in plain text?
 
-In short, writing in plain text is one you can isolate the *practice of writing* from the *task of formatting*.
+In short, writing in plain text is one you can isolate the *writing process* from the *task of formatting*.
 
-The standard text editors that many academics use---Microsoft Word, for example, or Google Docs---
+Standard **rich text editors** that many academics use package writing and formatting in the same interface. Take Microsoft Word, for instance:
+
+![Screenshot of MS Word's rich text features](assets/msword.png)
 
 ### 2.2.
 
