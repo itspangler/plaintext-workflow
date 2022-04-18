@@ -16,9 +16,14 @@ Also, it's okay to hate this exercise and this workflow for writing. Even if tha
 
 Good luck!
 
-1. [On writing](#1-on-writing)
-<!-- 2. [Why plaintext?](#2-why-plaintext) -->
-3. [Getting started in plaintext](#3-getting-started-in-plaintext)
+| Section | Title                       |
+| ------- | --------------------------- |
+|    1    | [On writing](#1-on-writing) |
+|    2    | [Getting started in plaintext](#3-getting-started-in-plaintext)                             |
+|    3    |                             |
+|    4    |                             |
+|    5    |                             |
+
 
 ## 1. On writing
 
