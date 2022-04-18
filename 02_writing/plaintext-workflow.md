@@ -21,6 +21,6 @@ Good luck!
 
 We
 
-##. 2. Why plaintext?
+## 2. Why plaintext?
 
-##. 3.
+## 3.
