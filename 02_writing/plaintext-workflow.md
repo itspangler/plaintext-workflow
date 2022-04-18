@@ -14,7 +14,7 @@ Also, it's okay to hate this exercise and this workflow for writing. Even if tha
 
 Good luck!
 
-1. [On writing](## 1. On Writing)
+1. [On writing](#1-on-writing)
 
 ## 1. On writing
 
