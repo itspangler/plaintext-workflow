@@ -15,6 +15,7 @@ Also, it's okay to hate this exercise and this workflow for writing. Even if tha
 Good luck!
 
 1. [On writing](#1-on-writing)
+2. [Why plaintext?](#2-why-plaintext)
 
 ## 1. On writing
 
