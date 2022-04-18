@@ -1,6 +1,6 @@
 # A plaintext workflow for academic writing
 
-## 0. Introduction
+## Introduction
 
 This lab will get you started with plaintext writing. By the end of it, you will:
 
@@ -16,7 +16,7 @@ Also, it's okay to hate this exercise and this workflow for writing. Even if tha
 
 Good luck!
 
-| Table of Contents |
+## Table of Contents
 | Section | Title                       |
 | ------- | --------------------------- |
 |    1    | [On writing](#1-on-writing) |
