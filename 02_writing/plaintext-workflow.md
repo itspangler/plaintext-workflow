@@ -16,6 +16,7 @@ Also, it's okay to hate this exercise and this workflow for writing. Even if tha
 
 Good luck!
 
+| Table of Contents |
 | Section | Title                       |
 | ------- | --------------------------- |
 |    1    | [On writing](#1-on-writing) |
