@@ -1,61 +1,44 @@
-# A plaintext workflow for academic writing
+# A plain text workflow for academic writing
 
-## Introduction
+## Goals
 
-This lab will get you started with plaintext writing. By the end of it, you will:
+The purpose of this lab is to:
 
-  * have a better sense of why one would choose to work in plaintext
-  * understand key languages/softwares associated with writing in plaintext (Markdown, a text editor)
-  * have successfully set up a plaintext writing environment
-  * be able to execute basic document conversion tasks (pandoc, LaTeX)
-  * use Zotero to manage citations in plaintext (BibTeX)
-
-The goal of this lab is not to transition all of your work into plain text. Rather, it's to understand *why* plaintext writing can be useful; under *what* circumstances you might want to use it; and *how* you can do that, if you want.
-
-Also, it's okay to hate this exercise and this workflow for writing. Even if that's the case, we hope that you still learn something about what works for you and what doesn't! **This isn't meant to be prescriptive. It's meant to defamiliarize the taken-for-granted practices that comprise our academic work.**
-
-Good luck!
+  * provide a better sense of why one would choose to work in plain text;
+  * highlight key languages/softwares associated with writing in plain text (Markdown, a text editor);
+  * teach you how to:
+    - set up a plain text writing environment;
+    - execute basic document conversion tasks (pandoc, LaTeX);
+    - use Zotero to manage citations in plain text (BibTeX);
+  * and, most importantly, offer some tools that will prompt you to think about your writing process
 
 ## Table of Contents
-| Section | Title                       |
-| ------- | --------------------------- |
-|    1    | [On writing](#1-on-writing) |
-|    2    | [Getting started in plaintext](#3-getting-started-in-plaintext)                             |
-|    3    |                             |
-|    4    |                             |
-|    5    |                             |
 
+  | Section | Title                       |
+  | ------- | --------------------------- |
+  |    1    | [Getting started](#1-getting-started) |
+  |    2    |                             |
+  |    3    |                             |
+  |    4    |                             |
 
-## 1. On writing
+<!-- ## A note on sources
 
->"This is a short book because most books about writing are filled with bullshit. Fiction writers, present company included, don’t understand very much about what they do—not why it works when it’s good, not why it doesn’t when it’s bad. I figured the shorter the book, the less the bullshit."
->
->—Stephen King, *On Writing: A Memoir of the Craft* (2002)
+This lab borrows a lot from Scott Selisker's "[A Plain Text Workflow for Academic Writing with Atom](http://u.arizona.edu/~selisker/post/workflow/)" and Kieran Healy's "[The Plain Person’s Guide to Plain Text Social Science](https://plain-text.co/)." Do check them out if you have time. -->
 
-In his memoir on writing, Stephen King argues that writers are *formed* rather than *made*. That is, becoming a "writer" is a slow accumulation of memories, experiences, and knowledge. Presumably, that's why most books about writing (e.g., books about how to make yourself a writer) are bullshit.
+## 1. Getting started
 
-King is talking about fiction writing, of course, which is a great deal different from scholarly prose. Still, he makes a point that transcends genre: that writing has got a whole lot to do with one's memories and experiences.
+### 2.1. Why write in plain text?
 
->""
->
->—Virginia Woolf, *A Room of One's Own*
+In short, writing in plain text is one you can isolate the *practice of writing* from the *task of formatting*.
 
-Writing is a political proposition.
+The standard text editors that many academics use---Microsoft Word, for example, or Google Docs---
 
-###
-
->
->
->—Alice Walker, *In Search of our Mothers' Gardens*
-
-## 2. Getting started in plaintext
-
-### 2.1. What is plaintext and why use it?
+### 2.2.
 
 As academics, we have a complicated relationship to writing. We are constantly doing it. Sometimes we write for six hours and produce a paragraph; sometimes we write for an hour and produce six. We write papers for class, notes for seminars, letters of recommendation, lengthy emails, short emails, emails that never get sent, feedback for our students, grants, proposals, exams, exam answers, research materials, theses, dissertations... the list goes on.
 
 All of this falls more or less into the broad category of "scholarly writing," at least insofar as it's stuff that we have to do for our jobs as scholars. Especially the Big Things---grants, dissertations, and journal manuscripts, for example---require some kind of established workflow.
 
-In this lab, you'll be introduced to one such workflow: **Plaintext writing**.
+In this lab, you'll be introduced to one such workflow: **plain text writing**.
 
-"Plaintext" refers to text with no style, formatting, or
+"plain text" refers to text with no style, formatting, or
