@@ -28,27 +28,23 @@ The purpose of this lab is NOT to convince you that plain text writing is the on
   |    3    |                             |
   |    4    |                             |
 
-<!-- ## A note on sources
-
-This lab borrows a lot from Scott Selisker's "[A Plain Text Workflow for Academic Writing with Atom](http://u.arizona.edu/~selisker/post/workflow/)" and Kieran Healy's "[The Plain Person’s Guide to Plain Text Social Science](https://plain-text.co/)." Do check them out if you have time. -->
-
 ## 1. Getting started
 
 ### 1.1. What is plain text, anyway?
 
 #### Rich Text
 
-You're probably familiar with **[rich text](https://en.wikipedia.org/wiki/Rich_Text_Format)**, a shorthand for file formats (`.rtf`, `.doc`) that natively support features like formatting, inline images, and track changes. Microsoft's Word and Apple's Pages are the most common rich text word processing apps. There's a lot going on under the hood of word processors (code, functions) that makes stuff like font families, alignment, and color just a button click away.
+You're probably familiar with **[rich text](https://en.wikipedia.org/wiki/Rich_Text_Format)**, a shorthand for file formats (`.rtf`, `.doc`) that natively support features like formatting, inline images, and track changes. Microsoft's Word and Apple's Pages are among the most common rich text word processing apps. There's a lot going on under the hood of word processors (code, functions) that makes stuff like font families, alignment, and color just a button click away.
 
 | ![Screenshot of MS Word's rich text features](assets/msword.png) |
 | ---------------------------------------------------------------- |
 | *screenshot of the MS word interface, with rich text formatting options highlighted in the red box*                            |
 
-[Dennis Tenen and Grant Wythoff](http://programminghistorian.org/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown#philosophy) have done a good job, I think, of articulating the problems with rich text editors:
+If the upshot of processors like these is functionality, then the downsides are busyness, opacity, and propriety. [Dennis Tenen and Grant Wythoff](http://programminghistorian.org/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown#philosophy) have done a good job, I think, of articulating the problems with rich text editors:
 
 >When you use MS Word, Google Docs, or Open Office to write documents, what you see is not what you get. Beneath the visible layer of words, sentences, and paragraphs lies a complicated layer of code understandable only to machines. Because of that hidden layer, your .docx and .pdf files depend on proprietary tools to be rendered correctly. Such documents are difficult to search, to print, and to convert into other file formats.
 
-Moreover, an important point: **formatting is *not* writing**. The
+Moreover, an important point: **formatting is *not* writing**. The very functionality that makes MS Word distinct and comfortable has got, arguably, very little to do with the actual process of writing! Enter plain text.
 
 #### Plain text
 
@@ -68,8 +64,6 @@ Writing in this way, they go on:
 
 >... liberates the author from the tool. Markdown can be written in any plain text editor and offers a rich ecosystem of software that can render that text into beautiful looking documents. For this reason, Markdown is currently enjoying a period of growth, not just as as means for writing scholarly papers but as a convention for online editing in general.
 
-
-
 ### 1.2. Why write in plain text?
 
 In my view, there are five main benefits of writing prose in plain text:
@@ -77,7 +71,7 @@ In my view, there are five main benefits of writing prose in plain text:
   1. Separate writing from formatting
   2. Keep writing agnostic to file format and platform
   3. Facilitate easy document conversion
-  4. Subscription-free
+  4. Fully open source
   5.
 
 The primary benefit of writing in plain text is to **isolate the writing process from the tasks of editing and formatting.**
