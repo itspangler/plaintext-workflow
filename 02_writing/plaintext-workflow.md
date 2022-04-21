@@ -15,14 +15,14 @@ The purpose of this lab is NOT to convince you that plain text writing is the on
 
 # Overview
 
-After a brief discussion of what plain text writing is and why one would do it, the lab walks you through the software stack required for a plain text writing environment. Over the course of the lab, you'll download a few free, open-source softwares and packages including:
+After a brief discussion of what plain text writing is and why one would do it, the lab walks you through installing the software stack required for a plain text writing environment. Over the course of the lab, you'll download a few free, open-source softwares and packages including:
 
   - A text editor like Atom or VS Code
   - pandoc, a document conversion software
   - TeXShop, a LaTeX editor required for pandoc to work
   - The Zotero extension Better BibTeX, a citation manager
 
-By the end, you'll have the requisite software stack and an example workspace which can serve as as template for future projects.
+You'll use these libraries and apps to compose a basic Markdown document and convert it into a number of other file formats.
 
 ### A note...
 
@@ -34,12 +34,18 @@ Borrowing from an excellent piece that Kieran Healy wrote about plain text workf
 
 # Table of Contents
 
-  | Section | Title                       |
-  | ------- | --------------------------- |
-  |    1    | [Getting started](#1-getting-started) |
-  |    2    |                             |
-  |    3    |                             |
-  |    4    |                             |
+  1. Getting started
+    1. What is plain text, anyway?
+    2. Why write in plain text?
+  2. Downloading your text editor
+    1. Pick one!
+    2. Install it
+    3. OPTIONAL: Install with a package manager
+      1. What's Homebrew?
+      2. Install Homebrew from the Terminal
+      3. Install Atom using Homebrew
+  3.
+  5.
 
 # 1. Getting started
 
@@ -144,7 +150,7 @@ Per the instructions on [Homebrew's main page](https://brew.sh/), install Homebr
 
 You don't need to know what this set of commands means right now.
 
-### 1.4.2. Install Atom using Homebrew
+### 2.3.3. Install Atom using Homebrew
 
 Here's where it gets fun. All you need to do to install Atom is type into your terminal:
 
@@ -158,7 +164,17 @@ You can easily figure out whether any software program or application is install
 | --------------------------------------------------------------------- |
 | A google search for homebrew install Atom                                                                      |
 
-Once you've done this
+Once you've done this, you you'll be able to find Atom in your Applications folder. Open it up, and move on to Section 3!
+
+# 3. Create a workspace
+
+In Atom, select `file` -> `Add project folder...` and choose a sensible place for this workspace. I created a folder in the GitHub repository for this working group called `example-workflow`:
+
+| ![Adding a project folder to Atom](assets/add-proj-folder.png) |
+| ----------------------------------- |
+|                                     |
+
+
 
 # GRAVEYARD
 
