@@ -1,29 +1,24 @@
-# a beginner's guide (by a beginner) to plain text writing
+# Welcome to "Managing Information Workflows for Research, Writing, and Data!"
 
-## what's plain text?
+The AAG landing page can be found [here](https://www.aag.org/webinar/managing-information-workflows-for-writing-research-data/), and the schedule is below. **Meetings will always take place on Mondays or Wednesdays at 7pm EST, except for Open Labs, which are optional and start at 6pm.**
 
-Technically speaking, plain text is a catch-all term for text files that aren't tagged with any kind of platform-specific formatting (such as .docx). [Markdown](https://www.markdownguide.org/) is the most common plain text language, and it's the one that we'll be using for this workshop.
+The Zoom link to join meetings will always be the same and can be found [here]().
 
-In short: plain text is text that's just text. No bells and whistles.
+## Schedule
 
-## what's writing?
-
-At it's core, writing is about 1) externalizing ideas so they aren't forgotten. Through the process of writing, we often 2) come up with new ideas about the material we're working on, and we typically, though not always, desire to 3) share what we write with others in a commonly understood language.
-
-In short: writing is a technique for remembering, generating, and sharing ideas.
-
-## what's plain text writing?
-
-Plain text writing is a set of technical strategies for making typing on your laptop as similar as possible to writing in a notebook. Most folks are accustomed to writing in Microsoft Word,
-
-In short: plain text writing is an approach to writing that's just writing, with no bells and whistles.
-
-## okay, but... why is plain text writing?
-
-A number of people have written about writing in plain text.
-
-## starting out
-
-First, download GitHub Desktop. Then clone this repository to your computer by clicking the `clone` button. Save it in a place that makes sense for you.
-
-We're going to be messing with a wide range of softwares, languages, and libraries
+| Date   | Time       | Length | Topic                                            |
+|--------|------------|--------|--------------------------------------------------|
+| Wednesday, 25-May | 7 PM EST   | 90     | Welcome                                          |
+| Wednesday, 1-Jun  | 7 PM EST   | 75     | Research I: Philosophy of research               |
+| Wednesday, 8-Jun  | 7 PM EST   | 75     | Research II: Using Zotero                        |
+| Monday, 13-Jun | 6-8 PM EST | 120    | Optional Open lab                                |
+| Wednesday, 15-Jun | 7 PM EST   | 75     | Research III: Challenges, reflections, & goals   |
+| Wednesday, 22-Jun | 7 PM EST   | 75     | Writing I: Philosophy of writing                 |
+| Wednesday, 29-Jun | 7 PM EST   | 75     | Writing II: A plaintext workflow                 |
+| Wednesday, 6-Jul  | 6-8 PM EST | 120    | Optional Open lab                                |
+| Wednesday, 13-Jul | 7 PM EST   | 75     | Writing III: Challenges, reflections, & goals    |
+| Monday, 18-Jul | 7 PM EST   | 75     | Geospatial I: Philosophy of geospatial data      |
+| Wednesday, 20-Jul | 7 PM EST   | 75     | Geospatial II: Using QGIS and PostGIS            |
+| Monday, 25-Jul | 6-8 PM EST | 120    | Optional Open lab                                |
+| Wednesday, 27-Jul | 7 PM EST   | 75     | Geospatial III: Challenges, reflections, & goals |
+| Wednesday, 3-Aug  | 7 PM EST   | 60     | Wrap-up                                          |
