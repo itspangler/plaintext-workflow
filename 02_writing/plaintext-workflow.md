@@ -22,7 +22,7 @@ After a brief discussion of what plain text writing is and why one would do it, 
   - TeXShop, a LaTeX editor required for pandoc to work
   - The Zotero extension Better BibTeX, a citation manager
 
-You'll use these libraries and apps to compose a basic Markdown document and convert it into a number of other file formats.
+You'll use these libraries and apps to set up a workspace, compose a basic Markdown document, equip it with the power of Zotero, and convert it into a number of other file formats.
 
 ### A note...
 
@@ -34,13 +34,13 @@ Borrowing from an excellent piece that Kieran Healy wrote about plain text workf
 
 # Table of Contents
 
-  1. Getting started
-    1. What is plain text, anyway?
-    2. Why write in plain text?
-  2. Downloading your text editor
-    1. Pick one!
-    2. Install it
-    3. OPTIONAL: Install with a package manager
+  1. [Getting started](#1-getting-started)
+    1. [What is plain text, anyway?](#1-1-what-is-plain-text-anyway)
+    2. [Why write in plain text?](#1-2-why-write-in-plain-text)
+  2. [Downloading your text editor](#2-downloading-your-text-editor)
+    1. [Pick one!](#2-1-pick-one)
+    2. [Install it](#2-2-install-it)
+    3. [OPTIONAL: Install with a package manager](#2-3-optional-install-with-a-package-manager)
       1. What's Homebrew?
       2. Install Homebrew from the Terminal
       3. Install Atom using Homebrew
