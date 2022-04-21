@@ -35,12 +35,11 @@ Borrowing from an excellent piece that Kieran Healy wrote about plain text workf
 # Table of Contents
 
   1. [Getting started](#1-getting-started)
-    1. [What is plain text, anyway?](#1-1-what-is-plain-text-anyway)
-    2. [Why write in plain text?](#1-2-why-write-in-plain-text)
+    1. [What is plain text, anyway?](#1-what-is-plain-text-anyway)
+    2. [Why write in plain text?](#2-why-write-in-plain-text)
   2. [Downloading your text editor](#2-downloading-your-text-editor)
-    1. [Pick one!](#2-1-pick-one)
-    2. [Install it](#2-2-install-it)
-    3. [OPTIONAL: Install with a package manager](#2-3-optional-install-with-a-package-manager)
+    1. [Pick one!](#1-pick-one)
+    2. [OPTIONAL: Install with a package manager](#2-optional-install-with-a-package-manager)
       1. What's Homebrew?
       2. Install Homebrew from the Terminal
       3. Install Atom using Homebrew
@@ -105,13 +104,11 @@ I recommend [Atom](https://atom.io/) -- mainly because I use it and it has a nic
 
 If you go with Atom, check out this [great guide from Ben Balter](https://ben.balter.com/2016/12/23/atom-for-prose/) with advice on how to customize your Atom environment for writing prose. [Scott Selisker](http://u.arizona.edu/~selisker/post/workflow/) has got a similarly excellent set of suggestions for customizing Atom in his plain text workflow guide.
 
-## 2.2. Install with a package manager
-
-If you want to learn how to install this and other softwares using a [package manager](https://en.wikipedia.org/wiki/Package_manager), follow the steps in Section 2.3.
+If you want to learn how to install this and other softwares using a [package manager](https://en.wikipedia.org/wiki/Package_manager), follow the steps in Section 2.2.
 
 If not, just download the editor of your choice, the way you normally do, and proceed to [Section 3](#3-set-up-your-project-space).
 
-## 2.3. OPTIONAL: Install Atom with a package manager
+## 2.2. OPTIONAL: Install with a package manager
 
 | This section is specific to MacOS. I apologize that I couldn't do one for Windows, but I don't have a Windows machine :(. |
 | ---- |
