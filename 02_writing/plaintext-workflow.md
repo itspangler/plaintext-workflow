@@ -168,13 +168,13 @@ Once you've done this, you you'll be able to find Atom in your Applications fold
 
 # 3. Create a workspace
 
-In Atom, select `file` -> `Add project folder...` and choose a sensible place for this workspace. I created a folder in the GitHub repository for this working group called `example-workflow`:
+In Atom, select `file` -> `Add project folder...` and choose a sensible place for this workspace (I created a folder in the GitHub repository for this working group). Name it `example-workflow`:
 
 | ![Adding a project folder to Atom](assets/add-proj-folder.png) |
 | ----------------------------------- |
-|                                     |
+| *Adding a project folder to Atom*             |
 
-
+You should now see this folder in the **file tree pane** on the left hand side of Atom.
 
 # GRAVEYARD
 
