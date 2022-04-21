@@ -35,8 +35,8 @@ Borrowing from an excellent piece that Kieran Healy wrote about plain text workf
 # Table of Contents
 
   1. [Getting started](#1-getting-started)
-    1. [What is plain text, anyway?](#what-is-plain-text-anyway)
-    2. [Why write in plain text?](#2-why-write-in-plain-text)
+    - [What is plain text, anyway?](#what-is-plain-text-anyway)
+    - [Why write in plain text?](#2-why-write-in-plain-text)
   2. [Downloading your text editor](#2-downloading-your-text-editor)
     1. [Pick one!](#1-pick-one)
     2. [OPTIONAL: Install with a package manager](#2-optional-install-with-a-package-manager)
