@@ -103,7 +103,7 @@ Before diving in to the nuts and bolts of the plain text workflow, you should do
 
 I recommend [Atom](https://atom.io/) -- mainly because I use it and it has a nice suite of plugins for writing prose -- but you can use any one you like. Other simple options include [VS Code](https://code.visualstudio.com/download) and [Sublime](https://www.sublimetext.com/3), and you can get more complex with [Emacs](https://www.gnu.org/software/emacs/download.html) and [Vim](https://www.vim.org/download.php) (although I wouldn't recommend starting with those). For the purposes of this exercise, don't lose too much sleep over picking one over another.
 
-If you go with Atom, check out this [great guide](https://ben.balter.com/2016/12/23/atom-for-prose/) with advice on how to customize your Atom environment for writing prose.
+If you go with Atom, check out this [great guide from Ben Balter](https://ben.balter.com/2016/12/23/atom-for-prose/) with advice on how to customize your Atom environment for writing prose. [Scott Selisker](http://u.arizona.edu/~selisker/post/workflow/) has got a similarly excellent set of suggestions for customizing Atom in his plain text workflow guide.
 
 ## 2.2. Install with a package manager
 
@@ -118,13 +118,13 @@ If not, just download the editor of your choice, the way you normally do, and pr
 
 ### 2.3.1. What's Homebrew?
 
-So, [Homebrew](https://brew.sh/) is a package manager for MacOS. What's that mean and why should you care?
+[Homebrew](https://brew.sh/) is a package manager for MacOS. What's that mean and why should you care?
 
-A "package manager" is just a handy script that 1) installs applications and software packages 2) into a sensible directory on your machine. Homebrew works from the Terminal, or the native Mac interface for navigating an operating system via text (as opposed to installing with `.dmg` files in a point-and-click, drag-and-drop fashion).
+A "package manager" is just a handy program that 1) installs applications and software packages 2) into a sensible directory on your machine. Homebrew works from the Terminal,  the native Mac interface for navigating an operating system via text (as opposed to installing with `.dmg` files in a point-and-click, drag-and-drop fashion).
 
 Real programmers and software developers (e.g., not me) like Homebrew and other package managers because it allows them to toggle back and forth between language versions (e.g., sometimes they have to flip between Python 2.7 and Python 3, depending on the project).
 
-Personally, I like Homebrew for ease of use.
+Personally, I like Homebrew for ease of use. Installing new programs with it is fast, easy, and clean.
 
 ### 2.3.2. Install Homebrew from the Terminal
 
@@ -166,15 +166,39 @@ You can easily figure out whether any software program or application is install
 
 Once you've done this, you you'll be able to find Atom in your Applications folder. Open it up, and move on to Section 3!
 
-# 3. Create a workspace
+# 3. Create a project workspace
 
-In Atom, select `file` -> `Add project folder...` and choose a sensible place for this workspace (I created a folder in the GitHub repository for this working group). Name it `example-workflow`:
+Create a folder, in a sensible place on your computer, where this lab will live. (I created a folder in the GitHub repository for this working group.) Name the folder `example-workflow`. This will be your "project workspace."
+
+In Atom, select `file` -> `Add project folder...` and add the workspace you created:
 
 | ![Adding a project folder to Atom](assets/add-proj-folder.png) |
 | ----------------------------------- |
 | *Adding a project folder to Atom*             |
 
-You should now see this folder in the **file tree pane** on the left hand side of Atom.
+You should now see this folder appear in the **file tree pane** on the left hand side of Atom. Right-click on the `example-workflow` folder, select `New File`, and title the new file `main.md`.
+
+The **Markdown file** that you created should open automatically. Copy the following text and paste it into `main.md`, replacing the text between `< >` where appropriate:
+
+        ---
+        title: "<your name>'s project"
+        author: "<your name>"
+        date: "<today's date>"
+        ---
+        # Section 1
+
+        Welcome to my document!
+
+        ## Subsection 1.1
+
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+        ## Subsection 1.2
+
+        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque  ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+
+
+This file could be anything: a chapter of your dissertation, your article manuscript draft, whatever. `main.md` is just a placeholder.
 
 # GRAVEYARD
 
