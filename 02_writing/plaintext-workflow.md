@@ -181,13 +181,13 @@ You should now see this folder appear in the **file tree pane** on the left hand
 The **Markdown file** that you created should open automatically. Copy the following text and paste it into `main.md`, replacing the text between `< >` where appropriate:
 
         ---
-        title: "<your name>'s project"
-        author: "<your name>"
-        date: "<today's date>"
+        title: <your name>'s project
+        author: <your name>
+        date: <today's date as xx/xx/xxxx>
         ---
         # Section 1
 
-        Welcome to my document!
+        Welcome to my document, which contains many fantastic ideas! Read on...
 
         ## Subsection 1.1
 
@@ -198,7 +198,16 @@ The **Markdown file** that you created should open automatically. Copy the follo
         Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque  ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
 
 
-This file could be anything: a chapter of your dissertation, your article manuscript draft, whatever. `main.md` is just a placeholder.
+Think of this file -- `main.md` -- as the primary document in which you'll draft your writing. It constitutes the core of your project workspace.
+
+At this point, especially if you've never used it before, feel free to fiddle around with Markdown. Some useful resources for writing in Markdown:
+  - [Markdown's official documentation](https://www.markdownguide.org/getting-started/)
+  - [A great cheatsheet for Markdown syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+  - [A Markdown table generator](https://www.tablesgenerator.com/markdown_tables)
+
+# 4. Install pandoc
+
+[pandoc](https://pandoc.org/) is a software for document conversion. At
 
 # GRAVEYARD
 

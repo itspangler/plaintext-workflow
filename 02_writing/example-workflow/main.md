@@ -1,11 +1,12 @@
 ---
-title: "<your name>'s project"
-author: "<your name>"
-date: "<today's date>"
+title: Ian's project
+author: Ian Spangler
+date: 04/21/21
 ---
+
 # Section 1
 
-Welcome to my document!
+Welcome to my document, which contains many fantastic ideas! Read on...
 
 ## Subsection 1.1
 
