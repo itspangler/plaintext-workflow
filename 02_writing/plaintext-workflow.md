@@ -113,8 +113,6 @@ So, [Homebrew](https://brew.sh/) is a package manager for MacOS. What's that mea
 
 A "package manager" is just a handy script that 1) installs applications and software packages 2) into a sensible directory on your machine. Homebrew works from the Terminal, or the native Mac interface for navigating an operating system via text (as opposed to installing with `.dmg` files in a point-and-click, drag-and-drop fashion).
 
-The terminal is cool because it lets you navigate 
-
 Real programmers and software developers (e.g., not me) like Homebrew and other package managers because it allows them to toggle back and forth between language versions (e.g., sometimes they have to flip between Python 2.7 and Python 3, depending on the project).
 
 Personally, I like Homebrew for ease of use.
@@ -125,11 +123,17 @@ To install Homebrew, you need to open your Mac's Terminal.
 
 Press `cmd + space` to open the Spotlight, and type `terminal`. You should see this:
 
-![View of `terminal` search in Spotlight](assets/spotlight.png)
+| ![View of `terminal` search in Spotlight](assets/spotlight.png) |
+| --------------------------------------------------------------- |
+| *View of `terminal`                                                               search in Spotlight*  |
 
 Click `return` and the Terminal will open:
 
-![View of Terminal app](assets/terminal.png)
+| ![View of Terminal app](assets/terminal.png) |
+| -------------------------------------------- |
+| *View of Terminal app*                                             |
+
+The Terminal is sort of like a text-based version of the file [Finder app](https://en.wikipedia.org/wiki/Finder_(software)). [Here's a cheatsheet](https://github.com/0nn0/terminal-mac-cheatsheet) with a bunch of Terminal commands.
 
 Per the instructions on [Homebrew's main page](https://brew.sh/), install Homebrew by copying and pasting the following code into the Terminal, then press `return`:
 
@@ -144,6 +148,14 @@ Here's where it gets fun. All you need to do to install Atom is type into your t
 `brew install --cask atom`
 
 and press `return`. ¡Voila!
+
+You can easily figure out whether any software program or application is installable via Homebrew with a web search for `brew install <app>` where `<app>` = the application you want, like so:
+
+| ![A google search for homebrew install Atom](assets/atom-install.png) |
+| --------------------------------------------------------------------- |
+| A google search for homebrew install Atom                                                                      |
+
+Once you've done this
 
 ## GRAVEYARD
 
