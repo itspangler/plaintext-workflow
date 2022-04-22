@@ -214,7 +214,7 @@ For scholarly writing, perhaps the most important question in any workflow is ho
 
 Thankfully, there are great ways to address this indispensable part of scholarship in a plain text workflow -- and they begin with Zotero.
 
-## Zotero + Better BibTeX Install
+## Zotero + Better BibTeX
 
 Zotero is a very extensible application, with lots of handy plugins. One of them is [Better BibTeX](https://retorque.re/zotero-better-bibtex/). According to its website, Better BibTeX is built specifically to make "it easier to manage bibliographic data, especially for people authoring documents using text-based toolchains (e.g. based on LaTeX / Markdown)."
 
@@ -230,18 +230,36 @@ To install this add-on:
 
 After the initial installation, the plugin will auto-update to newer releases, so you should need to perform the process described here only once.
 
-##
+## What a cite to see
 
 Using our newfound power of citation, let's plug some citations into our `main.md` project file.
 
-Remember that Zotero library you made yesterday? We're going to export this to a plain text bibliography file: a `.bib`.
+Remember that Zotero library you made yesterday? We're going to export this to a plain text bibliography file: a `.bib`. To do so:
 
-  1. Navigate to your library
+  1. Navigate to your library (I'm just using a Zotero folder from my qualifying exams in this example)
   2. Select all of the entries in the library (e.g., click on one entry and then press `cmd + A`)
   3. Right-click -> `Export items`
   4. Choose `Better BibTeX` as the format
   5. Leave other boxes unchecked and click `OK`
-  6. Navigate to your project directory, `example-workflow`, and save this file as `main.bib` 
+  6. Navigate to your project directory, `example-workflow`, and save this file as `main.bib`
+
+Now, your project workspace should contain two files: `main.md` and `main.bib`. In theory, `main.bib` is a self-contained plain text file containing only references associated with this project.
+
+First, open `main.bib`. Take a look around. These files basically just contain structured metadata about each reference. Importantly, each entry begins with a unique identifier that immediately follows the first curly brace `{`. This unique ID is key, literally: it's called a **citekey**, and it will allow you to quickly and easily cite any item from your `.bib` file by simply typing `[@]`.
+
+Next, pick a reference. Any reference! Let's call this Reference A. Remember the citekey of Reference A.
+
+Finally, open `main.md` and write a sentence. It can have something to do with the references in your `.bib` file, or not. Either way, you're going to attribute this idea to Reference A. At the end of the sentence, type `[@<citekey>]`, where `<citekey>` = Reference A.
+
+Once you get a couple of letters in, you should actually see the citation start to autofill, like so:
+
+| ![Citation autofill](assets/cite.png) |
+| ------------------------------------- |
+| *The citation in my `main.md` document beginning to autofill*                                      |
+
+Pretty cool! You can imagine how this could come in handy, especially for long projects like dissertation chapters or journal manuscripts -- and we haven't even tapped into the full functionality yet.
+
+In the next section on document conversion, we'll test out a few commands using a software called **pandoc**. In addition to easily converting files from `.md` to `.docx` and more, pandoc will dynamically create a full bibliography, based on the items we cite in `main.md` from `main.bib`.
 
 # 5. Converting with pandoc
 
