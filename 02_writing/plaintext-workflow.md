@@ -117,11 +117,11 @@ If not, just download the editor of your choice, the way you normally do, and pr
 
 [Homebrew](https://brew.sh/) is a package manager for MacOS. What's that mean and why should you care?
 
-A "package manager" is just a handy program that 1) installs applications and software packages 2) into a sensible directory on your machine. Homebrew works from the Terminal,  the native Mac interface for navigating an operating system via text (as opposed to installing with `.dmg` files in a point-and-click, drag-and-drop fashion).
+A "package manager" is just a handy program that 1) installs applications and software packages 2) into a sensible directory on your machine. You can only use Homebrew from Terminal, the native Mac interface for navigating an operating system via text commands. This is in contrast to something like the [Finder app](https://en.wikipedia.org/wiki/Finder_(software)), a [graphical user interface](https://en.wikipedia.org/wiki/Graphical_user_interface) that relies on point-and-click, drag-and-drop commands.
 
-Real programmers and software/app developers (e.g., not me) like Homebrew and other package managers because it allows them to toggle back and forth between language versions (e.g., sometimes they have to flip between Python 2.7 and Python 3, depending on the project).
+Real programmers and software/app developers (e.g., not me) are fond of Homebrew and other package managers because it allows them to toggle back and forth between language versions (e.g., sometimes they have to flip between Python 2.7 and Python 3, depending on the project).
 
-Personally, I like Homebrew for ease of use. Installing new programs with it is fast, easy, and clean. I hope you like it too!
+I don't really do this. Personally, I like Homebrew for the ease of use. Installing new programs with it is fast, easy, and clean. I hope you like it too!
 
 ### 2.2.2. Install Homebrew from the Terminal
 
@@ -139,9 +139,9 @@ Click `return` and the Terminal will open:
 | -------------------------------------------- |
 | *View of Terminal app*                                             |
 
-The Terminal is sort of like a text-based version of the file [Finder app](https://en.wikipedia.org/wiki/Finder_(software)). [Here's a cheatsheet](https://github.com/0nn0/terminal-mac-cheatsheet) with a bunch of Terminal commands.
+[Here's a cheatsheet](https://github.com/0nn0/terminal-mac-cheatsheet) with a bunch of Terminal commands.
 
-Per the instructions on [Homebrew's main page](https://brew.sh/), install Homebrew by copying and pasting the following code into the Terminal, then press `return`:
+Per the instructions on [Homebrew's main page](https://brew.sh/), install Homebrew by copying and pasting the following code into Terminal, then press `return`:
 
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
@@ -153,7 +153,7 @@ If you run into issues with this, feel free to shoot me an email.
 
 ### 2.3.3. Install Atom using Homebrew
 
-Here's where it gets fun. All you need to do to install Atom is type into your terminal:
+And now, the payoff -- all you need to do to install Atom is type into your terminal:
 
 `brew install --cask atom`
 
