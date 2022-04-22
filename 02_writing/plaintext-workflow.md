@@ -110,20 +110,20 @@ If not, just download the editor of your choice, the way you normally do, and pr
 
 ## 2.2. OPTIONAL: Install with a package manager
 
-| This section is specific to MacOS. I apologize that I couldn't do one for Windows, but I don't have a Windows machine :(. |
+| This section is specific to MacOS. I apologize that I couldn't do one for Windows, but I don't have a Windows machine :(. If you want to set up a package manager on Windows, this next section should be easy to replicate by using the [command line](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands) instead of Terminal, and [Chocolatey](https://chocolatey.org/install) instead of Homebrew. |
 | ---- |
 
-### 2.3.1. What's Homebrew?
+### 2.2.1. What's Homebrew?
 
 [Homebrew](https://brew.sh/) is a package manager for MacOS. What's that mean and why should you care?
 
 A "package manager" is just a handy program that 1) installs applications and software packages 2) into a sensible directory on your machine. Homebrew works from the Terminal,  the native Mac interface for navigating an operating system via text (as opposed to installing with `.dmg` files in a point-and-click, drag-and-drop fashion).
 
-Real programmers and software developers (e.g., not me) like Homebrew and other package managers because it allows them to toggle back and forth between language versions (e.g., sometimes they have to flip between Python 2.7 and Python 3, depending on the project).
+Real programmers and software/app developers (e.g., not me) like Homebrew and other package managers because it allows them to toggle back and forth between language versions (e.g., sometimes they have to flip between Python 2.7 and Python 3, depending on the project).
 
 Personally, I like Homebrew for ease of use. Installing new programs with it is fast, easy, and clean.
 
-### 2.3.2. Install Homebrew from the Terminal
+### 2.2.2. Install Homebrew from the Terminal
 
 To install Homebrew, you need to open your Mac's Terminal.
 
@@ -195,16 +195,16 @@ The **Markdown file** that you created should open automatically. Copy the follo
         Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque  ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
 
 
-Think of this file -- `main.md` -- as the primary document in which you'll draft your writing. It constitutes the core of your project workspace.
+Think of this file -- `main.md` -- as the primary document in which you'll draft your writing. You can name it whatever you want (but as we'll see later, a shorter name is better). Whatever you call it, this document will be at the center of your project workspace.
 
-At this point, especially if you've never used it before, feel free to fiddle around with Markdown. Some useful resources for writing in Markdown:
+Before moving on to the next section, now would be a good time to fiddle around with Markdown, especially if you've never used it before. Some useful resources for writing in Markdown:
   - [Markdown's official documentation](https://www.markdownguide.org/getting-started/)
   - [A great cheatsheet for Markdown syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
   - [A Markdown table generator](https://www.tablesgenerator.com/markdown_tables)
 
 # 4. Install pandoc
 
-[pandoc](https://pandoc.org/) is a software for document conversion. At
+[pandoc](https://pandoc.org/) is a software for document conversion. By entering simple commands in the Terminal or command line,
 
 # GRAVEYARD
 
