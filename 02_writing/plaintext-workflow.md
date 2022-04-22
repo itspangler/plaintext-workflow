@@ -121,11 +121,11 @@ A "package manager" is just a handy program that 1) installs applications and so
 
 Real programmers and software/app developers (e.g., not me) like Homebrew and other package managers because it allows them to toggle back and forth between language versions (e.g., sometimes they have to flip between Python 2.7 and Python 3, depending on the project).
 
-Personally, I like Homebrew for ease of use. Installing new programs with it is fast, easy, and clean.
+Personally, I like Homebrew for ease of use. Installing new programs with it is fast, easy, and clean. I hope you like it too!
 
 ### 2.2.2. Install Homebrew from the Terminal
 
-To install Homebrew, you need to open your Mac's Terminal.
+To install Homebrew, you first need to open your Mac's Terminal.
 
 Press `cmd + space` to open the Spotlight, and type `terminal`. You should see this:
 
@@ -145,7 +145,11 @@ Per the instructions on [Homebrew's main page](https://brew.sh/), install Homebr
 
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
-You don't need to know what this set of commands means right now.
+You don't need to know what this code means. After you run it, you'll see a lot more code start plowing through the terminal. Don't worry about that either.
+
+To confirm Homebrew was installed, type `brew --version` and hit `return`. If the Terminal prints a Homebrew version, you're good to proceed.
+
+If you run into issues with this, feel free to shoot me an email.
 
 ### 2.3.3. Install Atom using Homebrew
 
@@ -202,9 +206,61 @@ Before moving on to the next section, now would be a good time to fiddle around 
   - [A great cheatsheet for Markdown syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
   - [A Markdown table generator](https://www.tablesgenerator.com/markdown_tables)
 
-# 4. Install pandoc
+# 4. Let's get citational
 
-[pandoc](https://pandoc.org/) is a software for document conversion. By entering simple commands in the Terminal or command line,
+For scholarly writing, perhaps the most important question in any workflow is how to manage citations and bibliographies. Kieran Healy, in a [wonderful guide to plain text writing](https://plain-text.co/index.html), puts it well:
+
+>"[D]oing scholarly work is intrinsically a mess. There’s the annoying business of getting ideas and writing them down, of course, but also everything before, during, and around it: data analysis and all that comes with it, and the tedious but unavoidable machinery of scholarly papers—especially citations and references. There is a lot of keep track of, a lot to get right, and a lot to draw together at the time of writing.
+
+Thankfully, there are great ways to address this indispensable part of scholarship in a plain text workflow -- and they begin with Zotero.
+
+## Zotero + Better BibTeX Install
+
+Zotero is a very extensible application, with lots of handy plugins. One of them is [Better BibTeX](https://retorque.re/zotero-better-bibtex/). According to its website, Better BibTeX is built specifically to make "it easier to manage bibliographic data, especially for people authoring documents using text-based toolchains (e.g. based on LaTeX / Markdown)."
+
+To install this add-on:
+
+  1. At [this page](https://github.com/retorquere/zotero-better-bibtex/releases/tag/v6.5.1), download the file `zotero-better-bibtex-6.5.1.xpi` by clicking on it
+  2. Open Zotero
+  3. Click `Tools` -> `Add-ons`
+  4. Click the `Extensions` button
+  5. Click on the gear in the top-right corner and choose ‘Install Add-on From File…’
+  6. Choose .xpi that you’ve just downloaded, click ‘Install’
+  7. Restart Zotero
+
+After the initial installation, the plugin will auto-update to newer releases, so you should need to perform the process described here only once.
+
+##
+
+Using our newfound power of citation, let's plug some citations into our `main.md` project file.
+
+Remember that Zotero library you made yesterday? We're going to export this to a plain text bibliography file: a `.bib`.
+
+  1. Navigate to your library
+  2. Select all of the entries in the library (e.g., click on one entry and then press `cmd + A`)
+  3. Right-click -> `Export items`
+  4. Choose `Better BibTeX` as the format
+  5. Leave other boxes unchecked and click `OK`
+  6. Navigate to your project directory, `example-workflow`, and save this file as `main.bib` 
+
+# 5. Converting with pandoc
+
+[pandoc](https://pandoc.org/) is a software for document conversion. Your Markdown document `main.md` is for writing -- when you need to share, use pandoc to transform that document into `.docx`, `.pdf`, or any other format you like.
+
+To install pandoc via Homebrew, open the Terminal and execute this line of code:
+
+`brew install pandoc`
+
+You can confirm pandoc is properly installed by executing:
+
+`pandoc --version`
+
+| Note: the next section is copied near-verbatim from pandoc's "[Getting started](https://pandoc.org/getting-started.html)" page. It involves navigating the command line and it has instructions for both Windows and Mac. |
+| ---- |
+
+## Navigating directories from the command line
+
+During the document conversion phase of
 
 # GRAVEYARD
 
