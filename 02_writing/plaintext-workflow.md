@@ -19,8 +19,8 @@ After a brief discussion of what plain text writing is and why one would do it, 
 
   - A text editor like Atom or VS Code
   - pandoc, a document conversion software
-  - TeXShop, a LaTeX editor required for pandoc to work
   - The Zotero extension Better BibTeX, a citation manager
+  - TeXShop, a software package that automatically handles document formatting
 
 You'll use these libraries and apps to set up a workspace, compose a basic Markdown document, equip it with the power of Zotero, and convert it into a number of other file formats.
 
@@ -28,9 +28,9 @@ You'll use these libraries and apps to set up a workspace, compose a basic Markd
 
 In this lab, you'll run commands from the [terminal (Mac)](https://en.wikipedia.org/wiki/Terminal_(macOS)) or [command line (Windows)](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands). This can feel intimidating if you've never done it before. In this guide, we'll do our best to emphasize *why* you're doing this or that, as opposed to emphasizing *what buttons* to press.
 
-Most importantly, **it is okay not to fully understand concepts and software introduced in this lab.** The tech stack in a plain text writing workflow is pretty proliferated, and it's decidedly more complex to get set up than writing in MS word. Moreover, the programming world can feel and be really exclusive/exclusionary.
+Most importantly, **it is okay not to fully understand concepts and software introduced in this lab.** The tech stack in a plain text writing workflow is pretty proliferated, and it's decidedly more complex to get set up than writing in MS Word. Moreover, the programming world can feel -- and be -- really exclusive/exclusionary. Put plainly,
 
-Borrowing from an excellent piece that Kieran Healy wrote about plain text workflows, **I wouldn't suggest anyone use something that I'm not willing to support their learning. If you run into any issues, at any time, drop me a line (ian.spangler@uky.edu) and I'll do my best to help answer questions.**
+Borrowing from an excellent piece that Kieran Healy wrote about plain text workflows, **I wouldn't suggest anyone use something that I'm not willing to support their learning until they feel comfortable using it on their own. If you run into any issues, at any time, drop me a line (ian.spangler@uky.edu) and I'll do my best to help answer questions.**
 
 # Table of Contents
 
@@ -82,7 +82,9 @@ The downsides are busyness, opacity, and propriety. [Dennis Tenen and Grant Wyth
 
 >When you use MS Word, Google Docs, or Open Office to write documents, what you see is not what you get. Beneath the visible layer of words, sentences, and paragraphs lies a complicated layer of code understandable only to machines. Because of that hidden layer, your .docx and .pdf files depend on proprietary tools to be rendered correctly. Such documents are difficult to search, to print, and to convert into other file formats.
 
-Practically, this means that when we write in Word et al., we're often faced with distractions from writing.
+Practically, this means that when we write in Word et al., we're often doing tasks that are **not writing**. This is not by accident, but by design.
+
+So, what can you do about it?
 
 This is where plain text becomes useful.
 
@@ -110,7 +112,7 @@ If not, just download the editor of your choice, the way you normally do, and pr
 
 ## 2.2. OPTIONAL: Install with a package manager
 
-| This section is specific to MacOS. I apologize that I couldn't do one for Windows, but I don't have a Windows machine :(. If you want to set up a package manager on Windows, this next section should be easy to replicate by using the [command line](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands) instead of Terminal, and [Chocolatey](https://chocolatey.org/install) instead of Homebrew. |
+| If you're on a Windows machine, you should be able to do everything in this section if you use [command line](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands) instead of Terminal, and [Chocolatey](https://chocolatey.org/install) instead of Homebrew. |
 | ---- |
 
 ### 2.2.1. What's Homebrew?
@@ -169,7 +171,7 @@ Once you've done this, you you'll be able to find Atom in your Applications fold
 
 # 3. Create a project workspace
 
-Create a folder, in a sensible place on your computer, where this lab will live. (I created a folder in the GitHub repository for this working group.) Name the folder `example-workflow`. This will be your "project workspace."
+Create a folder, in a sensible place on your computer, where this lab will live. (I created a folder in the GitHub repository for this working group.) Name the folder `I I’m flow`. This will be your "project workspace."
 
 In Atom, select `file` -> `Add project folder...` and add the workspace you created:
 
@@ -224,17 +226,17 @@ To install this add-on:
   2. Open Zotero
   3. Click `Tools` -> `Add-ons`
   4. Click the `Extensions` button
-  5. Click on the gear in the top-right corner and choose ‘Install Add-on From File…’
-  6. Choose .xpi that you’ve just downloaded, click ‘Install’
+  5. Click on the gear in the top-right corner and choose `Install Add-on From File…`
+  6. Choose .xpi that you’ve just downloaded, click `Install`
   7. Restart Zotero
 
 After the initial installation, the plugin will auto-update to newer releases, so you should need to perform the process described here only once.
 
-## What a cite to see
+## What a cite to see!
 
-Using our newfound power of citation, let's plug some citations into our `main.md` project file.
+Using our newfound power of citation, let's plug some references into our `main.md` project file.
 
-Remember that Zotero library you made yesterday? We're going to export this to a plain text bibliography file: a `.bib`. To do so:
+Remember that Zotero library you made during the Session 1 exercises? We're going to export this to a plain text bibliography file (with `.bib` extension), which will make it compatible with our plain text workflow. To do so:
 
   1. Navigate to your library (I'm just using a Zotero folder from my qualifying exams in this example)
   2. Select all of the entries in the library (e.g., click on one entry and then press `cmd + A`)
@@ -245,9 +247,12 @@ Remember that Zotero library you made yesterday? We're going to export this to a
 
 Now, your project workspace should contain two files: `main.md` and `main.bib`. In theory, `main.bib` is a self-contained plain text file containing only references associated with this project.
 
+| Note: I've used 'dummy' file names for everything in this lab, but if it makes more sense for you to name your files with topical descriptors, go right ahead. I like the idea of naming the top-level folder with a descriptor, e.g., the folder `dissertation_ch1` contains `main.md` and `main.bib`. |
+| -------------------- |
+
 First, open `main.bib`. Take a look around. These files basically just contain structured metadata about each reference. Importantly, each entry begins with a unique identifier that immediately follows the first curly brace `{`. This unique ID is key, literally: it's called a **citekey**, and it will allow you to quickly and easily cite any item from your `.bib` file by simply typing `[@]`.
 
-Next, pick a reference. Any reference! Let's call this Reference A. Remember the citekey of Reference A.
+Next, pick a reference. Any reference! Let's call this Reference A. Remember the citekey of Reference A. It's easy to remember because all citekeys *should* begin with the author's last name.
 
 Finally, open `main.md` and write a sentence. It can have something to do with the references in your `.bib` file, or not. Either way, you're going to attribute this idea to Reference A. At the end of the sentence, type `[@<citekey>]`, where `<citekey>` = Reference A.
 
@@ -259,26 +264,217 @@ Once you get a couple of letters in, you should actually see the citation start 
 
 Pretty cool! You can imagine how this could come in handy, especially for long projects like dissertation chapters or journal manuscripts -- and we haven't even tapped into the full functionality yet.
 
-In the next section on document conversion, we'll test out a few commands using a software called **pandoc**. In addition to easily converting files from `.md` to `.docx` and more, pandoc will dynamically create a full bibliography, based on the items we cite in `main.md` from `main.bib`.
+In the next section on document conversion, we'll test out a few commands using a software called **pandoc**. In addition to easily converting files from `.md` to `.docx` and more, pandoc allows you to dynamically create a full bibliography, based on the items from `main.bib` you have cited in `main.md`.
+
+To me, this is among the most powerful functionalities of the plain text workflow.
 
 # 5. Converting with pandoc
 
+## Getting started
+
+So, you've written a spectacular, brilliant manuscript, but no journal will accept it in its current format. You're ready to export it to a Word document -- but how?
+
 [pandoc](https://pandoc.org/) is a software for document conversion. Your Markdown document `main.md` is for writing -- when you need to share, use pandoc to transform that document into `.docx`, `.pdf`, or any other format you like.
 
-To install pandoc via Homebrew, open the Terminal and execute this line of code:
+pandoc requires you to execute tasks from the command line. This can be intimidating if you've never done it before, but once you know how to do it, you will probably find it hard to return to point-and-click stuff. Also, you'll look like you're hacking into the mainframe every time you export a file to a Word doc. Nice!
 
-`brew install pandoc`
-
-You can confirm pandoc is properly installed by executing:
-
-`pandoc --version`
+See a cheatsheet for [Windows terminal commands here](http://www.cs.columbia.edu/~sedwards/classes/2015/1102-fall/Command%20Prompt%20Cheatsheet.pdf), and one for [MacOS here](https://github.com/0nn0/terminal-mac-cheatsheet).
 
 | Note: the next section is copied near-verbatim from pandoc's "[Getting started](https://pandoc.org/getting-started.html)" page. It involves navigating the command line and it has instructions for both Windows and Mac. |
 | ---- |
 
-## Navigating directories from the command line
+## Step 1: Install pandoc
 
-During the document conversion phase of
+To install pandoc via Homebrew, open the Terminal and execute this line of code:
+
+    brew install pandoc
+
+To install pandoc with a Mac or Windows installer, follow instructions [at this page](https://pandoc.org/installing.html).
+
+## Step 2: Open a terminal
+
+As mentioned above, pandoc is a command-line tool. There is no graphic user interface. So, to use it, you’ll need to open a terminal window.
+
+### MacOS
+
+On MacOS, the Terminal application can be found in `/Applications/Utilities` or by typing `terminal` into the `Spotlight` app (`cmd + space`).
+
+### Windows
+
+On Windows, you can use either the classic command prompt or the more modern PowerShell terminal. If you use Windows in desktop mode, run the `cmd` or `powershell` command from the Start menu. If you use the Windows 8 start screen instead, simply type `cmd` or `powershell`, and then run either the “Command Prompt” or “Windows Powershell” application. If you are using `cmd`, type chcp 65001 before using pandoc, to set the encoding to UTF-8.
+
+### Linux
+
+[See pandoc's website](https://pandoc.org/getting-started.html#step-2-open-a-terminal) for Linux configuration.
+
+### Confirm pandoc is installed
+
+Once you've opened your terminal, you should see a rectangle with a “prompt” (possibly just a symbol like %, but probably including more information, such as your username and directory), and a blinking cursor.
+
+Let’s verify that pandoc is installed. Type
+
+    pandoc --version
+
+and hit enter. You should see a message telling you which version of pandoc is installed, as well as some additional information.
+
+## Step 3: Changing directories
+
+The terminal is just another way of navigating through files on your computer. Just like any other file finder, you navigate it through specific "places" (e.g., folders). First, let’s see where we are. Type
+
+    pwd
+
+on Linux or MacOS, or
+
+    echo %cd%
+
+on Windows, and hit enter. Your terminal should **print** your current **working directory**. (Unrelatedly, guess what `pwd` stands for?)
+
+Let’s navigate now to our project directory, `example-workflow`. Type `ls` and hit enter. You'll see all the files and folders in your current directory. Type
+
+    cd Documents
+
+and hit enter. Now type
+
+    `pwd` (or `echo %cd%` on Windows)
+
+again. You should be in the `Documents` subdirectory of your home directory. To go back to your home directory, you could type
+
+    cd ..
+
+The `..` means “one level up.”
+
+Return to your Documents directory and navigate to your project workspace, `example-workflow`, by typing `cd <destination>` where `<destination>` is the next folder that contains `example-workflow`.
+
+If you ever get lost, use:
+  1. `pwd` (or `echo %cd%`) to view your current directory
+  2. `ls` to view all files in your current directory
+  3. `cd ..` to go "one above" your current directory
+
+That’s all you need to know for now about using the terminal. But here’s a secret that will save you a lot of typing. You can always type the up-arrow key to go back through your history of commands. So if you want to use a command you typed earlier, you don’t need to type it again: just use up-arrow until it comes up. Try this. (You can use down-arrow as well, to go the other direction.) Once you have the command, you can also use the left and right arrows and the backspace/delete key to edit it.
+
+Most terminals also support tab completion of directories and filenames. To try this, first go back one level above your project workspace by typing:
+
+    cd ..
+
+Now, type
+
+    cd example-
+
+and hit the tab key instead of enter. Your terminal should fill in the rest (`workflow`), and then you can hit enter. **This will save you a LOT OF TIME if your folders have spaces in them. If your folders have spaces in them, you will need to prefix every space with `\`.** For example, to `cd` into a folder titled `example workflow`, you'd need to type `cd example\ workflow`, which is a pain in the butt.
+
+## Step 4 (OPTIONAL): Using pandoc as a filter
+
+Type
+
+    pandoc
+
+and hit enter. You should see the cursor just sitting there, waiting for you to type something. Type this:
+
+    Hello *pandoc*!
+
+    - one
+    - two
+
+When you’re finished (the cursor **must be at the beginning of the next line**), type `Ctrl-D` on MacOS or Linux, or `Ctrl-Z` followed by `Enter` on Windows. You should now see your text converted to HTML!
+
+    <p>Hello <em>pandoc</em>!</p>
+    <ul>
+    <li>one</li>
+    <li>two</li>
+    </ul>
+
+What just happened? When pandoc is invoked without specifying any input files, it operates as a “filter,” taking input from the terminal and sending its output back to the terminal. You can use this feature to play around with pandoc.
+
+By default, input is interpreted as pandoc markdown, and output is HTML (if you're not familiar with HTML syntax, you can read the [basics here](https://www.w3schools.com/html/html5_syntax.asp)).
+
+We can change that output, if we want. Let’s try converting from HTML to markdown:
+
+    pandoc -f html -t markdown
+
+Now type:
+
+    <p>Hello <em>pandoc</em>!</p>
+
+and hit `Ctrl-D` (or `Ctrl-Z` followed by `Enter` on Windows). You should see:
+
+    Hello *pandoc*!
+
+## Step 5: Converting a file
+
+In the terminal, confirm that you're in your project workspace by typing `pwd`.
+
+Now type
+
+    ls
+
+(or dir if you’re on Windows). You should see your working document, `main.md`.
+
+### Convert to HTML
+
+To convert it to HTML, copy and paste the following command directly into your terminal:
+
+    pandoc main.md -f markdown -t html -s -o main.html
+
+
+Here's how this command breaks down:
+
+  1. `pandoc` invokes the software library
+  2. `main.md` tells pandoc which file to convert
+  3. `-f markdown` specifies the format you're converting from
+  4. `-t html` is the format you're converting to
+  5. `-s` tells pandoc to create a “standalone” file, with a header and footer, not just a fragment
+  6. `-o test1.html` says to put the output in the file test1.html.
+
+  Note that we could have omitted `-f markdown` and `-t html`, since pandoc's default behavior is to convert from markdown to HTML -- but it doesn’t hurt to include them.
+
+| ![*description of pandoc flags*](assets/pandoc-flags.png) |
+| --------------------------------------------------------- |
+| *description of pandoc flags* flags                                                          |
+
+
+Check that the file was created by typing
+
+    ls
+
+and pressing `enter`. You should see main.html. Now open this in a browser. On MacOS, you can type
+
+    open main.html
+
+On Windows, type
+
+    .\main.html
+
+You should see a browser window with your document.
+
+### Convert to a Word document
+
+Now try creating a Word document (with extension `.docx`). Try using the `^` arrow to find your previous conversion command, and replacing `main.html` with `main.docx`.
+
+### Convert to PDF
+
+If you want to create a PDF, you’ll need to have [LaTeX](https://www.latex-project.org/about/) installed. See MacTeX on OS X, MiKTeX on Windows, or install the texlive package on Linux. Then do
+
+pandoc test1.md -s -o test1.pdf
+Step 7: Command-line options
+You now know the basics. Pandoc has a lot of options. At this point you can start to learn more about them by reading the User’s Guide.
+
+Here’s an example. The --mathml option causes pandoc to convert TeX math into MathML. Type
+
+pandoc --mathml
+then enter this text, followed by Ctrl-D (Ctrl-Z followed by Enter on Windows):
+
+$x = y^2$
+Now try the same thing without --mathml. See the difference in output?
+
+If you forget an option, or forget which formats are supported, you can always do
+
+pandoc --help
+to get a list of all the supported options.
+
+On OS X or Linux systems, you can also do
+
+man pandoc
+to get the pandoc manual page. All of this information is also in the User’s Guide.
 
 # GRAVEYARD
 
