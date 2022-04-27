@@ -21,7 +21,7 @@ After a brief discussion of what plain text writing is and why one would do it, 
   - pandoc, a document conversion software
   - The Zotero extension Better BibTeX, a citation manager
   - Homebrew or Chocolatey, package managers (optional)
-  - TeXShop, a software package that automatically handles document formatting (optional)
+  - TeXShop, a software package that allows PDF conversion (optional)
 
 You'll use these libraries and apps to set up a workspace, compose a basic Markdown document, equip it with the power of Zotero, and convert it into a number of other file formats.
 
@@ -526,10 +526,20 @@ The output will look something like:
 
 ### Convert to PDF (OPTIONAL)
 
-If you want to create a PDF, you’ll need to have [LaTeX](https://www.latex-project.org/about/) installed. See MacTeX on OS X, MiKTeX on Windows, or install the texlive package on Linux. Then do
+If you want to create a PDF, you’ll need to have [LaTeX](https://www.latex-project.org/about/) installed.
 
-    pandoc test1.md -s -o test1.pdf
+See [MacTeX on MacOS](https://tug.org/mactex/mactex-download.html), [MiKTeX on Windows](https://miktex.org/howto/install-miktex), or install the [texlive package on Linux](https://tug.org/texlive/acquire-netinstall.html).
 
+| Note: I have TeXShop. I don't really remember why I picked this particular one, but for context, all of these packages are most useful for when you're doing more intense formatting -- especially lots of statistics, mathematic equations, etc. They are pretty heavy, too; MacTeX clocks in at 4.7 GB. So if you want some help with this section, feel free to reach out to me, and at the very least read up online about them before you download. |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+
+Once it's installed, run
+
+    pandoc main.md -s -o main.pdf
+
+and then
+
+    open main.pdf
 
 ### Wrapping up
 
