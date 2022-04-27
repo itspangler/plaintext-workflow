@@ -35,7 +35,9 @@ Borrowing from an excellent piece that Kieran Healy wrote about plain text workf
 # Table of Contents
 
   1. [Getting started](#1-getting-started)
+
     - [What is plain text, anyway?](#what-is-plain-text-anyway)
+    
     - [Why write in plain text?](#why-write-in-plain-text)
   2. [Downloading your text editor](#2-downloading-your-text-editor)
     1. [Pick one!](#pick-one)
@@ -252,7 +254,7 @@ Now, your project workspace should contain two files: `main.md` and `main.bib`. 
 
 First, open `main.bib`. Take a look around. These files basically just contain structured metadata about each reference. Importantly, each entry begins with a unique identifier that immediately follows the first curly brace `{`. This unique ID is key, literally: it's called a **citekey**, and it will allow you to quickly and easily cite any item from your `.bib` file by simply typing `[@]`.
 
-**IMPORTANT: don't close `main.bib`. For this next step to work, `main.bib` has to be open in your text editor.**
+For this next step to work, it's important that you do not close `main.bib`. Leave it open!
 
 Next, pick a reference. Any reference! Let's call this Reference A. Remember the citekey of Reference A. It's easy to remember because all citekeys *should* begin with the author's last name.
 
@@ -274,7 +276,7 @@ To me, this is among the most powerful functionalities of the plain text workflo
 
 ## Getting started
 
-So, you've written a spectacular, brilliant manuscript, but no journal will accept it in its current format. You're ready to export it to a Word document -- but how?
+So you're ready to share your brilliant writing with the world, but all you've got is a crummy Markdown document? pandoc is here to save the day!
 
 [pandoc](https://pandoc.org/) is a software for document conversion. Your Markdown document `main.md` is for writing -- when you need to share, use pandoc to transform that document into `.docx`, `.pdf`, or any other format you like.
 
@@ -287,7 +289,7 @@ See a cheatsheet for [Windows terminal commands here](http://www.cs.columbia.edu
 
 ## Step 1: Install pandoc
 
-To install pandoc via Homebrew, open the Terminal and execute this line of code:
+If you opted to [install Homebrew during Section 2.2](), you can install pandoc via Homebrew by executing this line of code in the terminal:
 
     brew install pandoc
 
