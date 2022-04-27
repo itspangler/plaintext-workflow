@@ -34,12 +34,12 @@ Borrowing from an excellent piece that Kieran Healy wrote about plain text workf
 
 # Table of Contents
 
-  - [Getting started](#1-getting-started]
+  - [Getting started](#1-getting-started)
   - [Downloading your text editor](#2-downloading-your-text-editor)
   - [Create a project workspace](#3-create-a-project-workspace)
   - [Let's get citational](#4-lets-get-citational)
   - [Coverting with pandoc](#5-converting-with-pandoc)
-  - [Conclusion & further reading](#6-conclusion-further-reading)
+  - [Conclusion and further reading](#6-conclusion-further-reading)
 
 # 1. Getting started
 
@@ -532,7 +532,7 @@ If you want to create a PDF, you’ll need to have [LaTeX](https://www.latex-pro
 
 You now know the basics. Pandoc has a lot of options. At this point you can start to learn more about them by reading the [User’s Guide](https://pandoc.org/MANUAL.html). If there's a formatting feature that you think you want, pandoc probably has it!
 
-# 6. Conclusion & further reading
+# 6. Conclusion and further reading
 
 If you're still reading this, first off: thank you for diving down the plain text rabbit hole with me. I hope that this was a fun set of exercises, or that you learned something, or, at least, that you learned you **hate** something and will never do it again (which is okay).
 
