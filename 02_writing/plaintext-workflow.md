@@ -34,23 +34,12 @@ Borrowing from an excellent piece that Kieran Healy wrote about plain text workf
 
 # Table of Contents
 
-  - [Getting started](#1-getting-started)
-    - [What is plain text, anyway?](#what-is-plain-text-anyway)
-    - [Why write in plain text?](#why-write-in-plain-text)
+  - [Getting started](#1-getting-started]
   - [Downloading your text editor](#2-downloading-your-text-editor)
-    - [Pick one!](#pick-one)
-    - [OPTIONAL: Install with a package manager](#optional-install-with-a-package-manager)
-      - [What's Homebrew?](#whats-homebrew)
-      - [Install Homebrew from the Terminal](#install-homebrew-from-the-terminal)
-      - [Install Atom using Homebrew](#install-atom-using-homebrew)
   - [Create a project workspace](#3-create-a-project-workspace)
   - [Let's get citational](#4-lets-get-citational)
-    - [Zotero + Better BibTeX](#zotero-better-bibtex)
-    - [What a cite to see!](#what-a-cite-to-see)
   - [Coverting with pandoc](#5-converting-with-pandoc)
-    - [Getting started](#getting-started)
-    - [Converting to HTML](#converting-to-html)
-    - [Converting to Word]
+  - [Conclusion & further reading](#6-conclusion-further-reading)
 
 # 1. Getting started
 
@@ -549,4 +538,4 @@ If you're still reading this, first off: thank you for diving down the plain tex
 
 If you can believe it, I have some recommendations for further reading if you found this interesting. I'm including in that list the posts and articles that helped me create this tutorial.
 
-- 
+-
