@@ -252,6 +252,8 @@ Now, your project workspace should contain two files: `main.md` and `main.bib`. 
 
 First, open `main.bib`. Take a look around. These files basically just contain structured metadata about each reference. Importantly, each entry begins with a unique identifier that immediately follows the first curly brace `{`. This unique ID is key, literally: it's called a **citekey**, and it will allow you to quickly and easily cite any item from your `.bib` file by simply typing `[@]`.
 
+**IMPORTANT: don't close `main.bib`. For this next step to work, `main.bib` has to be open in your text editor.**
+
 Next, pick a reference. Any reference! Let's call this Reference A. Remember the citekey of Reference A. It's easy to remember because all citekeys *should* begin with the author's last name.
 
 Finally, open `main.md` and write a sentence. It can have something to do with the references in your `.bib` file, or not. Either way, you're going to attribute this idea to Reference A. At the end of the sentence, type `[@<citekey>]`, where `<citekey>` = Reference A.
