@@ -462,7 +462,12 @@ After converting from Markdown, open your shiny new Word doc with
 
     open main.docx
 
-and inspect it. Looks okay, right? Sure -- but it doesn't look *great*. There are two things missing here: a bibliography, and some nice formatting. Thankfully, they're both easy to add.
+and inspect it. You should see something like this:
+
+| ![Output with no citations or formatting](assets/out1.png) |
+| ---------------------------------------------------------- |
+
+Looks okay, right? Sure -- but it doesn't look *great*. There are two things missing here: a bibliography, and some nice formatting. Thankfully, they're both easy to add.
 
 Close `main.docx` before moving on to the next section.
 
@@ -472,20 +477,20 @@ At this point, you should have four files in your folder `example-workspace`: `m
 
 After making two small changes to `main.md`, pandoc will be smart enough to parse that reference you added in Section 4, and automatically create a bibliography from it.
 
-First, add a new line, `bibliography: ` in the front matter of `main.md` so that it reads:
+First, add a new line, `bibliography: main.bib` in the front matter of `main.md` so that it reads:
 
     ---
     title: Ian's project
     author: Ian Spangler
     date: 04/21/21
-    bibliography:
+    bibliography: main.bib
     ---
 
 For the sake of formatting, you should also add
 
     # Bibliography
 
-At the very bottom of your `main.md` document.
+at the very bottom of your `main.md` document.
 
 Second, add another flag to the conversion command you used above. That flag is `--citeproc`, and you can add it right after `main.md`. All together (minus the stuff we don't need), it'll look like:
 
@@ -495,15 +500,37 @@ Execute this command and then enter
 
     open main.docx
 
-You should now see a Word document with a full-throated bibliography! Note how pandoc was able to add *only the references that appeared in `main.md`* when importing from `main.bib`. Neat!
+You should now see a Word document with a full-throated bibliography! Note how pandoc was able to add *only the references that appeared in `main.md`* when importing from `main.bib`.
+
+| ![Output with references](assets/out2.png) |
+| ------------------------------------------ |
+
+Neat!
 
 ### Add formatting
 
 Having a bibliography is great, but it would be even better if we could choose to export this Markdown file into a fully formatted Word document. Thankfully, there's a flag we can add for that too!
 
-The flag `--custom-reference` will tell pandoc to look for a reference document in the current directory, and format the output according to it.
+The flag `--reference-doc` will tell pandoc to look for a reference document in the current directory, and format the output according to it.
 
-I made a sample reference document, which you can download [at this link](https://github.com/itspangler/research-writing-data/blob/main/02_writing/_custom-reference.docx) (the `Download` button is on the right hand of the screen).
+I made a sample reference document, which you can download [at this link](https://github.com/itspangler/research-writing-data/blob/main/02_writing/example-workflow/custom-reference.docx) (the `Download` button is on the right hand of the screen). Download it, and move it to your project workspace in `example-workflow`.
+
+After you've done so, go ahead and run the conversion command again, except this time, add the flag `--reference-doc=custom-reference.docx` after `--citeproc`. The command should read:
+
+    pandoc main.md --citeproc --reference-doc=custom-reference.docx -o main.docx
+
+You should see something close to this:
+
+| ![Output with references and formatting](assets/out3.png) |
+| --------------------------------------------------------- |
+
+Finally, you can use the flag `--number-sections` if you want to automate adding numbers in front of the headers:
+
+  pandoc main.md --citeproc --reference-doc=custom-reference.docx --number-sections -o main.docx
+
+The output will look something like:
+
+![Output with references, formatting, and numeric sections](assets/out4.png)
 
 ### Convert to PDF
 

@@ -19,6 +19,4 @@ Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolor
 
 The dominant property regime can be rather bad. [@blomleyActsDeedsViolences2000]
 
-American slavery and American capitalism go hand in hand
-
 # Bibliography
