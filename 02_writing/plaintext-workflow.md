@@ -20,7 +20,8 @@ After a brief discussion of what plain text writing is and why one would do it, 
   - A text editor like Atom or VS Code
   - pandoc, a document conversion software
   - The Zotero extension Better BibTeX, a citation manager
-  - TeXShop, a software package that automatically handles document formatting
+  - Homebrew or Chocolatey, package managers (optional)
+  - TeXShop, a software package that automatically handles document formatting (optional)
 
 You'll use these libraries and apps to set up a workspace, compose a basic Markdown document, equip it with the power of Zotero, and convert it into a number of other file formats.
 
@@ -39,7 +40,7 @@ Borrowing from an excellent piece that Kieran Healy wrote about plain text workf
   - [Create a project workspace](#3-create-a-project-workspace)
   - [Let's get citational](#4-lets-get-citational)
   - [Coverting with pandoc](#5-converting-with-pandoc)
-  - [Conclusion and further reading](#6-conclusion-further-reading)
+  - [Conclusion and further reading](#6-conclusion-and-further-reading)
 
 # 1. Getting started
 
@@ -103,7 +104,7 @@ If you go with Atom, check out this [great guide from Ben Balter](https://ben.ba
 
 If you want to learn how to install this and other softwares using a [package manager](https://en.wikipedia.org/wiki/Package_manager), follow the steps in Section 2.2.
 
-If not, just download the editor of your choice, the way you normally do, and proceed to [Section 3](#3-set-up-your-project-space).
+If not, just download the editor of your choice, the way you normally do, and proceed to [Section 3](#3-create-a-project-workspace).
 
 ## 2.2. OPTIONAL: Install with a package manager
 
@@ -140,7 +141,7 @@ Click `return` and the Terminal will open:
 
 Per the instructions on [Homebrew's main page](https://brew.sh/), install Homebrew by copying and pasting the following code into Terminal, then press `return`:
 
-`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 You don't need to know what this code means. After you run it, you'll see a lot more code start plowing through the terminal. Don't worry about that either.
 
@@ -152,7 +153,7 @@ If you run into issues with this, feel free to shoot me an email.
 
 And now, the payoff -- all you need to do to install Atom is type into your terminal:
 
-`brew install --cask atom`
+    brew install --cask atom
 
 and press `return`. ¡Voila!
 
@@ -166,7 +167,7 @@ Once you've done this, you you'll be able to find Atom in your Applications fold
 
 # 3. Create a project workspace
 
-Create a folder, in a sensible place on your computer, where this lab will live. (I created a folder in the GitHub repository for this working group.) Name the folder `I I’m flow`. This will be your "project workspace."
+Create a folder, in a sensible place on your computer, where this lab will live. Name the folder `example-workflow`. This will be your "project workspace."
 
 In Atom, select `file` -> `Add project folder...` and add the workspace you created:
 
@@ -196,12 +197,14 @@ The **Markdown file** that you created should open automatically. Copy the follo
         Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque  ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
 
 
-Think of this file -- `main.md` -- as the primary document in which you'll draft your writing. You can name it whatever you want (but as we'll see later, a shorter name is better). Whatever you call it, this document will be at the center of your project workspace.
+Think of this file -- `main.md` -- as the primary document in which you'll draft your writing. **For the purposes of this tutorial, I recommend you name it `main.md`.
 
 Before moving on to the next section, now would be a good time to fiddle around with Markdown, especially if you've never used it before. Some useful resources for writing in Markdown:
   - [Markdown's official documentation](https://www.markdownguide.org/getting-started/)
   - [A great cheatsheet for Markdown syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
   - [A Markdown table generator](https://www.tablesgenerator.com/markdown_tables)
+
+Feel free to add a few new sections, create a list or table, etc., before continuing.
 
 # 4. Let's get citational
 
@@ -426,7 +429,7 @@ Here's how this command breaks down:
 
 | ![*description of pandoc flags*](assets/pandoc-flags.png) |
 | --------------------------------------------------------- |
-| *description of pandoc flags* flags                                                          |
+| *description of pandoc flags*                                                          |
 
 
 Check that the file was created by typing
