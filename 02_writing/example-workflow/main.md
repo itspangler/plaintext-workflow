@@ -2,6 +2,7 @@
 title: Ian's project
 author: Ian Spangler
 date: 04/21/21
+bibliography: main.bib
 ---
 
 # Section 1
@@ -17,3 +18,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque  ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
 
 The dominant property regime can be rather bad. [@blomleyActsDeedsViolences2000]
+
+American slavery and American capitalism go hand in hand
+
+# Bibliography

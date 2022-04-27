@@ -450,6 +450,31 @@ You should see a browser window with your document.
 
 Now try creating a Word document (with extension `.docx`). Try using the `^` arrow to find your previous conversion command, and replacing `main.html` with `main.docx`.
 
+After converting from Markdown, open your shiny new Word doc with
+
+    open main.docx
+
+and inspect it. Looks okay, right? Sure -- but it doesn't look *great*. There are two things missing here: a bibliography, and some nice formatting. Thankfully, they're both easy to add.
+
+### Add a bibliography
+
+At this point, you should have four files in your folder `example-workspace`: `main.md`, `main.bib`, `main.html`, and `main.docx`.
+
+By making two small changes to `main.md`, pandoc will be smart enough to parse that reference that you added in Section 4.
+
+First, add another flag to your conversion command That flag is `--citeproc`, and you can add it right after `main.md`.
+
+Second, add a new line, `bibliography: ` in the front matter of `main.md` so that it reads:
+
+    ---
+    title: Ian's project
+    author: Ian Spangler
+    date: 04/21/21
+    bibliography:
+    ---
+
+
+
 ### Convert to PDF
 
 If you want to create a PDF, you’ll need to have [LaTeX](https://www.latex-project.org/about/) installed. See MacTeX on OS X, MiKTeX on Windows, or install the texlive package on Linux. Then do
