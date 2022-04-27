@@ -532,46 +532,21 @@ The output will look something like:
 
 ![Output with references, formatting, and numeric sections](assets/out4.png)
 
-### Convert to PDF
+### Convert to PDF (OPTIONAL)
 
 If you want to create a PDF, you’ll need to have [LaTeX](https://www.latex-project.org/about/) installed. See MacTeX on OS X, MiKTeX on Windows, or install the texlive package on Linux. Then do
 
-pandoc test1.md -s -o test1.pdf
-Step 7: Command-line options
-You now know the basics. Pandoc has a lot of options. At this point you can start to learn more about them by reading the User’s Guide.
+    pandoc test1.md -s -o test1.pdf
 
-Here’s an example. The --mathml option causes pandoc to convert TeX math into MathML. Type
 
-pandoc --mathml
-then enter this text, followed by Ctrl-D (Ctrl-Z followed by Enter on Windows):
+### Wrapping up
 
-$x = y^2$
-Now try the same thing without --mathml. See the difference in output?
+You now know the basics. Pandoc has a lot of options. At this point you can start to learn more about them by reading the [User’s Guide](https://pandoc.org/MANUAL.html). If there's a formatting feature that you think you want, pandoc probably has it!
 
-If you forget an option, or forget which formats are supported, you can always do
+# 6. Conclusion & further reading
 
-pandoc --help
-to get a list of all the supported options.
+If you're still reading this, first off: thank you for diving down the plain text rabbit hole with me. I hope that this was a fun set of exercises, or that you learned something, or, at least, that you learned you **hate** something and will never do it again (which is okay).
 
-On OS X or Linux systems, you can also do
+If you can believe it, I have some recommendations for further reading if you found this interesting. I'm including in that list the posts and articles that helped me create this tutorial.
 
-man pandoc
-to get the pandoc manual page. All of this information is also in the User’s Guide.
-
-# GRAVEYARD
-
-To borrow again from Tenen and Wythoff, the idea behind Markdown:
-
->... is to identify units that are meaningful to humans, like titles, sections, subsections, footnotes, and illustrations. At the very least, your files will always remain comprehensible to you, even if the editor you are currently using stops working or “goes out of business.”
-
-Writing in this way, they go on:
-
->... liberates the author from the tool. Markdown can be written in any plain text editor and offers a rich ecosystem of software that can render that text into beautiful looking documents.
-
-### 1.3.
-
-As academics, we have a complicated relationship to writing. We are constantly doing it. Sometimes we write for six hours and produce a paragraph; sometimes we write for an hour and produce six. We write papers for class, notes for seminars, letters of recommendation, lengthy emails, short emails, emails that never get sent, feedback for our students, grants, proposals, exams, exam answers, research materials, theses, dissertations... the list goes on.
-
-All of this falls more or less into the broad category of "scholarly writing," at least insofar as it's stuff that we have to do for our jobs as scholars. Especially the Big Things---grants, dissertations, and journal manuscripts, for example---require some kind of established workflow.
-
-In this lab, you'll be introduced to one such workflow: **plain text writing**.
+- 
