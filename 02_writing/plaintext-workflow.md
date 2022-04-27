@@ -34,17 +34,17 @@ Borrowing from an excellent piece that Kieran Healy wrote about plain text workf
 
 # Table of Contents
 
-  - 1. [Getting started](#1-getting-started)
-    - 1.1. [What is plain text, anyway?](#what-is-plain-text-anyway)
-    - 1.2. [Why write in plain text?](#why-write-in-plain-text)
-  - 2. [Downloading your text editor](#2-downloading-your-text-editor)
-    1. [Pick one!](#pick-one)
-    2. [OPTIONAL: Install with a package manager](#optional-install-with-a-package-manager)
-      1. What's Homebrew?
-      2. Install Homebrew from the Terminal
-      3. Install Atom using Homebrew
-  3.
-  5.
+  - [Getting started](#1-getting-started)
+    - [What is plain text, anyway?](#what-is-plain-text-anyway)
+    - [Why write in plain text?](#why-write-in-plain-text)
+  - [Downloading your text editor](#2-downloading-your-text-editor)
+    - [Pick one!](#pick-one)
+    - [OPTIONAL: Install with a package manager](#optional-install-with-a-package-manager)
+      - [What's Homebrew?](#whats-homebrew)
+      - [Install Homebrew from the Terminal](#install-homebrew-from-the-terminal)
+      - [Install Atom using Homebrew](#install-atom-using-homebrew)
+  - [Create a project workspace](#3-create-a-project-workspace)
+  -
 
 # 1. Getting started
 
@@ -153,7 +153,7 @@ To confirm Homebrew was installed, type `brew --version` and hit `return`. If th
 
 If you run into issues with this, feel free to shoot me an email.
 
-### 2.3.3. Install Atom using Homebrew
+### 2.2.3. Install Atom using Homebrew
 
 And now, the payoff -- all you need to do to install Atom is type into your terminal:
 
