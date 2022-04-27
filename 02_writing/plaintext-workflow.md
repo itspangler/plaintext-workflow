@@ -44,7 +44,11 @@ Borrowing from an excellent piece that Kieran Healy wrote about plain text workf
       - [Install Homebrew from the Terminal](#install-homebrew-from-the-terminal)
       - [Install Atom using Homebrew](#install-atom-using-homebrew)
   - [Create a project workspace](#3-create-a-project-workspace)
-  -
+  - [Let's get citational](#4-lets-get-citational)
+    - [Zotero + Better BibTeX](#zotero-better-bibtex)
+    - [What a cite to see!](#what-a-cite-to-see)
+  - [Coverting with pandoc](#5-converting-with-pandoc)
+    - [Getting started](#getting-started)
 
 # 1. Getting started
 
