@@ -221,6 +221,7 @@ Zotero is a very extensible application, with lots of handy plugins. One of them
 To install this add-on:
 
   1. At [this page](https://github.com/retorquere/zotero-better-bibtex/releases/tag/v6.5.1), download the file `zotero-better-bibtex-6.5.1.xpi` by clicking on it
+    - **NOTE:** If you're using Firefox, right-click the link and `Save As...` -- just clicking on it won't work!
   2. Open Zotero
   3. Click `Tools` -> `Add-ons`
   4. Click the `Extensions` button
