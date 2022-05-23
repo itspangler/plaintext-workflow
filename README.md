@@ -1,6 +1,12 @@
 # Welcome to "Managing Information Workflows for Research, Writing, and Data!"
 
+This working group is designed for geographers who are interested in the philosophy of academic practices.
+
+## Logistical stuff
+
 The AAG landing page can be found [here](https://www.aag.org/webinar/managing-information-workflows-for-writing-research-data/), and the schedule is below. **Meetings will always take place on Mondays or Wednesdays at 7pm EST, except for Open Labs, which are optional and start at 6pm.**
+
+[Click here](https://calendar.google.com/calendar/u/0?cid=cW9wa2F1NjB2NTEyZWo0cGd1MjVxYTJlcThAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) to add our meeting schedule to your Google calendar.
 
 The Zoom link to join meetings will always be the same and can be found [here]().
 
