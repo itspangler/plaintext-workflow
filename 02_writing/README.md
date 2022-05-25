@@ -1,4 +1,4 @@
-# Philosophy of Writing
+<!-- # Philosophy of Writing
 
 ## 1. On writing
 
@@ -22,4 +22,4 @@ Writing is a political proposition.
 
 >
 >
->—Alice Walker, *In Search of our Mothers' Gardens*
+>—Alice Walker, *In Search of our Mothers' Gardens* -->
