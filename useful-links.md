@@ -1,4 +1,4 @@
-### Useful links for research, writing, and data management
+### Useful links & tips for research, writing, and data management
 
 #### Basic file organization stuff
 
@@ -25,3 +25,41 @@
 
 - [A history of TeX (and its extensions)](https://www.authorea.com/users/303998/articles/515591-should-i-install-latex-miktex-or-texstudio?commit=7356239b60ea061b91904007c6036903b4b4d8f3)
 - [A writeup about plaintext](https://medium.com/adventures-in-consumer-technology/plaintext-markup-languages-cd19bc4274f0)
+
+#### Ian's handy keystroke cheatsheet
+
+note that `cmd` = the command button to the left of yer spacebar
+
+also note that *most* of these are replicable on a Windows machine by replacing `cmd` with `ctrl`
+
+##### the most essential keystroke on any machine
+- `cmd + tab` cycle through all open applications
+
+##### basic text interaction
+- `cmd + c` copy text
+- `cmd + x` cut text
+- `cmd + v` paste text
+- `cmd + a` select all
+- `cmd + z` undo
+- `cmd + shift + z` redo
+
+##### cursor movement
+- `cmd + <arrow>` move cursor all the way towards arrow direction
+- `cmd + shift + arrow` select all text towards arrow direction
+- ``
+
+##### tab and application control
+- `cmd + n` new window
+- `cmd + t` new tab
+- `cmd + shift + t` reopen last closed tab
+- `cmd + w` close a tab
+- `cmd + q` quit an application
+- `cmd + r` refresh (normally in a web browser)
+- `cmd + 1` move to your leftmost table
+- `cmd + 9` move to your rightmost tab
+- `cmd + <number if 2-8>` immediately move to the tab in `<number if 2-8>` position of all tabs
+
+##### deletion
+- `fn + delete` delete to right of cursor
+- `option + delete` delete entire word to left of cursor
+-
