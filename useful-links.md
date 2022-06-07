@@ -2,7 +2,7 @@
 
 #### Basic file organization stuff
 
-- Article about [data organization in spreadsheets](https://www-tandfonline-com.ezproxy.uky.edu/doi/full/10.1080/00031305.2017.1375989)
+- Article about [data organization in spreadsheets](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989)
 - [How to name files](https://speakerdeck.com/jennybc/how-to-name-files)
 - [Intro to GitHub](https://www.youtube.com/watch?v=BCQHnlnPusY) (this guy's videos are amazing for those of you who want to learn about programming and creative coding!)
 
