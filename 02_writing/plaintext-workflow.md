@@ -72,15 +72,21 @@ Rich text editors like MS Word and Google Docs bundle writing (e.g., typing word
 
 The upshot of word processors like these is the extended functionality they offer.
 
-The downsides are busyness, opacity, and propriety. [Dennis Tenen and Grant Wythoff](http://programminghistorian.org/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown#philosophy) have done a good job, I think, of explaining the problems with rich text editors:
+The downsides are busyness, opacity, and propriety. [Dennis Tenen and Grant Wythoff](http://programminghistorian.org/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown#philosophy) have done a good job, I think, of summarizing the princniples behind a plain text workflow in comparison to a MS Word workflow:
 
->When you use MS Word, Google Docs, or Open Office to write documents, what you see is not what you get. Beneath the visible layer of words, sentences, and paragraphs lies a complicated layer of code understandable only to machines. Because of that hidden layer, your .docx and .pdf files depend on proprietary tools to be rendered correctly. Such documents are difficult to search, to print, and to convert into other file formats.
+>*Sustainability*. Plain text both ensures transparency and answers the standards of long-term preservation. MS Word may go the way of Word Perfect in the future, but plain text will always remain easy to read, catalog, mine, and transform. Furthermore, plain text enables easy and powerful versioning of the document, which is useful in collaboration and organizing drafts. Your plain text files will be accessible on cell phones, tablets, or, perhaps, on a low-powered terminal in some remote library. Plain text is backwards compatible and future-proof. Whatever software or hardware comes along next, it will be able to understand your plain text files.
+>
+>*Preference for human-readable formats.* When writing in Word or Google Docs, what you see is not what you get. The .doc file contains hidden, automatically-generated formatting characters, creating an obfuscated typesetting layer that is difficult for the user to troubleshoot. Something as simple as pasting an image or text from the browser can have unpredictable effects on your document’s formatting.
+>
+>*Separation of form and content.* Writing and formatting at the same time is distracting. The idea is to write first, and format later, as close as possible to the time of publication. A task like switching from Chicago to MLA formatting should be painless. Journal editors who want to save time on needless formatting and copy editing should be able to provide their authors with a formatting template which takes care of the typesetting minutia.
+>
+>*Support for the academic apparatus.* The workflow needs to handle footnotes, figures, international characters, and bibliographies gracefully.
+>
+>*Platform independence.* As the vectors of publication multiply, we need to be able to generate a multiplicity of formats including for slide projection, print, web, and mobile. Ideally, we would like to be able to generate the most common formats without breaking bibliographic dependencies. Our workflow needs to be portable as well–it would be nice to be able to copy a folder to a thumbdrive and know that it contains everything needed for publication. Writing in plain text means you can easily share, edit, and archive your documents in virtually any environment. For example, a syllabus written in Markdown can be saved as a PDF, printed as a handout, and converted into HTML for the web, all from the same file. Both web and print documents should be published from the same source and look similar, preserving the logical layout of the material.
 
-Practically, this means that when we write in Word et al., we're often doing tasks that are **not writing**. This is not by accident, but by design. There are some other
+Practically, this means that when we write in Word et al., we're often doing tasks that are **not writing**. This is not by accident, but by design; and it's not necessarily a bad thing, but it's something that has become so normalized as to be unrecognizable as a process.
 
-So, what can you do about it?
-
-This is where plain text becomes useful.
+The remaining sections will walk you through setting up a plain text writing environment on your computer. Don't hesitate to reach out to me if you have questions at any point.
 
 # 2. Downloading your text editor
 
@@ -184,7 +190,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque  ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
 ```
 
-Think of this file -- `main.md` -- as the primary document in which you'll draft your writing. **For the purposes of this tutorial, I recommend you name it `main.md`.
+Think of this file -- `main.md` -- as the primary document in which you'll draft your writing. **For the purposes of this tutorial, I recommend you name it `main.md`.**
 
 Before moving on to the next section, now would be a good time to fiddle around with Markdown, especially if you've never used it before. Some useful resources for writing in Markdown:
   - [Markdown's official documentation](https://www.markdownguide.org/getting-started/)
@@ -436,7 +442,7 @@ You should see a browser window with your document.
 
 ### Convert to a Word document
 
-Now try creating a Word document (with extension `.docx`). Try using the `^` arrow to find your previous conversion command, and replacing `main.html` with `main.docx`.
+Now try creating a Word document (with extension `.docx`). Try using the ⬆️ arrow to find your previous conversion command, and replacing `main.html` with `main.docx`.
 
 After converting from Markdown, open your shiny new Word doc with
 
@@ -459,12 +465,14 @@ After making two small changes to `main.md`, pandoc will be smart enough to pars
 
 First, add a new line, `bibliography: main.bib` in the front matter of `main.md` so that it reads:
 
-    ---
-    title: Ian's project
-    author: Ian Spangler
-    date: 04/21/21
-    bibliography: main.bib
-    ---
+```markdown
+---
+title: Ian's project
+author: Ian Spangler
+date: 04/21/21
+bibliography: main.bib
+---
+```
 
 For the sake of formatting, you should also add
 
@@ -495,6 +503,8 @@ The flag `--reference-doc` will tell pandoc to look for a reference document in 
 
 I made a sample reference document, which you can download [at this link](https://github.com/itspangler/research-writing-data/blob/main/02_writing/example-workflow/custom-reference.docx) (the `Download` button is on the right hand of the screen). Download it, and move it to your project workspace in `example-workflow`.
 
+Take a minute to open it up and examine it. Can you parse through the structure? What kinds of patterns do you see?
+
 After you've done so, go ahead and run the conversion command again, except this time, add the flag `--reference-doc=custom-reference.docx` after `--citeproc`. The command should read:
 
     pandoc main.md --citeproc --reference-doc=custom-reference.docx -o main.docx
@@ -511,6 +521,8 @@ Finally, you can use the flag `--number-sections` if you want to automate adding
 The output will look something like:
 
 ![Output with references, formatting, and numeric sections](assets/out4.png)
+
+You might want to spend some time messing with the file `custom-reference.docx` and then running the conversion again. This will give you a good sense of how to customize your output files in the long run.
 
 ### Convert to PDF (OPTIONAL)
 
@@ -529,14 +541,17 @@ and then
 
     open main.pdf
 
-### Wrapping up
+# 6. Conclusion and further reading
 
 You now know the basics. Pandoc has a lot of options. At this point you can start to learn more about them by reading the [User’s Guide](https://pandoc.org/MANUAL.html). If there's a formatting feature that you think you want, pandoc probably has it!
 
-# 6. Conclusion and further reading
+Some resources:
+- a [cheat sheet for pandoc commands](https://github.com/itspangler/research-writing-data/blob/main/02_writing/pandoc-commands.md)
+- the landing page for [useful links and keystrokes](https://github.com/itspangler/research-writing-data/blob/main/useful-links.md)
 
-If you're still reading this, first off: thank you for diving down the plain text rabbit hole with me. I hope that this was a fun set of exercises, or that you learned something, or, at least, that you learned you **hate** something and will never do it again (which is okay).
-
-If you can believe it, I have some recommendations for further reading if you found this interesting. I'm including in that list the posts and articles that helped me create this tutorial.
-
--
+And further reading:
+- Kieran Healy's [guide to plain text social science](https://plain-text.co/)
+- Scott Selisker's [guide to plain text workflow with Atom](http://u.arizona.edu/~selisker/post/workflow/)
+- Richard Lent's [guide to plain text writing](https://richardlent.github.io/post/the-plain-text-workflow/)
+- Jeffrey Moro's [guide to plain text writing](https://jeffreymoro.com/blog/2020-09-21-how-i-write/)
+- Dennis Tenen and Grant Wythoff's [plain text writing guide](https://programminghistorian.org/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown)

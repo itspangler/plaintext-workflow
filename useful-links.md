@@ -61,6 +61,8 @@ also note that *most* of these are replicable on a Windows machine by replacing 
 - `cmd + n` new window
 - `cmd + t` new tab
 - `cmd + shift + t` reopen last closed tab
+- `cmd + [` back
+- `cmd + ]` forward
 - `cmd + w` close a tab
 - `cmd + q` quit an application
 - `cmd + r` refresh (normally in a web browser)
