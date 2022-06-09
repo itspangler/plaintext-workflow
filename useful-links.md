@@ -21,7 +21,6 @@
 - [Using Zotero with MaxQDA](https://www.maxqda.com/help-mx20/import/importing-bibliographical-data-from-endnote-etc)
 - [Zotero workflow tips](https://lauramay.live/2020/07/zotero-note-taking-workflow/)
 - to figure out where Zotero is hard-saving PDFs on your machine: go to `Zotero` > `Preferences` > `Advanced` > `Files & Folders` and check the Data Directory Location
-
 - export an entire library or folder with `cmd + a` (to select everything) > right-click > `export items`
 - `cmd + a + right arrow` open all parent elements
 - `cmd + a + left arrow` close all parent elements

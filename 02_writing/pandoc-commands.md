@@ -18,4 +18,4 @@
 
 ### To export .md with references, custom formatting, and numbered sections
 
-    pandoc main.md --reference-doc=custom-reference.docx --number-sections -o main.docx
+    pandoc main.md --citeproc --reference-doc=custom-reference.docx --number-sections -o main.docx

@@ -29,9 +29,7 @@ You'll use these libraries and apps to set up a workspace, compose a basic Markd
 
 In this lab, you'll run commands from the [terminal (Mac)](https://en.wikipedia.org/wiki/Terminal_(macOS)) or [command line (Windows)](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands). This can feel intimidating if you've never done it before. In this guide, we'll do our best to emphasize *why* you're doing this or that, as opposed to emphasizing *what buttons* to press.
 
-Most importantly, **it is okay not to fully understand concepts and software introduced in this lab.** The tech stack in a plain text writing workflow is pretty proliferated, and it's decidedly more complex to get set up than writing in MS Word. Moreover, the programming world can feel -- and be -- really exclusive/exclusionary. Put plainly,
-
-Borrowing from an excellent piece that Kieran Healy wrote about plain text workflows, **I wouldn't suggest anyone use something that I'm not willing to support their learning until they feel comfortable using it on their own. If you run into any issues, at any time, drop me a line (ian.spangler@uky.edu) and I'll do my best to help answer questions.**
+Most importantly, **it is okay not to fully understand concepts and software introduced in this lab.** The tech stack in a plain text writing workflow is pretty proliferated, and it's decidedly more complex to get set up than writing in MS Word. Moreover, the programming world can feel -- and be -- really exclusive/exclusionary. Borrowing from an excellent piece that Kieran Healy wrote about plain text workflows, **I wouldn't suggest anyone use something that I'm not willing to support their learning until they feel comfortable using it on their own. If you run into any issues, at any time, drop me a line (ian.spangler@uky.edu) and I'll do my best to help answer questions.**
 
 # Table of Contents
 
@@ -44,11 +42,11 @@ Borrowing from an excellent piece that Kieran Healy wrote about plain text workf
 
 # 1. Getting started
 
-## What is plain text, anyway?
+## 1.1. What is plain text, anyway?
 
 Well, let's start with what plain text isn't.
 
-### Rich Text
+### 1.1.1. Rich Text
 
 You're probably familiar with **[rich text](https://en.wikipedia.org/wiki/Rich_Text_Format)**, a shorthand for file formats (`.rtf`, `.doc`) that natively support features like formatting, inline images, and track changes. Microsoft's Word and Apple's Pages are among the most common rich text word processing apps. There's a lot going on under the hood of word processors (code, functions) that makes stuff like font families, alignment, and color just a button click away.
 
@@ -56,7 +54,7 @@ You're probably familiar with **[rich text](https://en.wikipedia.org/wiki/Rich_T
 | ---------------------------------------------------------------- |
 | *screenshot of the MS word interface, with rich text formatting options highlighted in the red box*                            |
 
-### Plain text
+### 1.1.2. Plain text
 
 Rich text can be contrasted with **[plain text](https://en.wikipedia.org/wiki/Plain_text)**, a shorthand for file formats (`.txt`) that contain no formatting features. This includes files written in [Markdown](https://www.markdownguide.org/getting-started/), a language that allows you to add formatting elements to plain text files with minor alterations such as enclosing text in asterisks. For example, in Markdown, `this text is normal, and **this text is bold**`.
 
@@ -72,25 +70,17 @@ The primary benefit of writing in plain text is to **isolate the writing process
 
 Rich text editors like MS Word and Google Docs bundle writing (e.g., typing words) and formatting (e.g., choosing fonts, adding italics, and so on) into the same interface.
 
-The upshot of word processors like these is extended functionality.
+The upshot of word processors like these is the extended functionality they offer.
 
 The downsides are busyness, opacity, and propriety. [Dennis Tenen and Grant Wythoff](http://programminghistorian.org/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown#philosophy) have done a good job, I think, of explaining the problems with rich text editors:
 
 >When you use MS Word, Google Docs, or Open Office to write documents, what you see is not what you get. Beneath the visible layer of words, sentences, and paragraphs lies a complicated layer of code understandable only to machines. Because of that hidden layer, your .docx and .pdf files depend on proprietary tools to be rendered correctly. Such documents are difficult to search, to print, and to convert into other file formats.
 
-Practically, this means that when we write in Word et al., we're often doing tasks that are **not writing**. This is not by accident, but by design.
+Practically, this means that when we write in Word et al., we're often doing tasks that are **not writing**. This is not by accident, but by design. There are some other
 
 So, what can you do about it?
 
 This is where plain text becomes useful.
-
-A plain text workflow will typically proceed something like this:
-
-  1. Define a workspace for your project
-  2. Using a text editor, compose all your writing in Markdown
-  3.
-
-
 
 # 2. Downloading your text editor
 
