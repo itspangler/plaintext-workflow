@@ -166,22 +166,22 @@ You should now see this folder appear in the **file tree pane** on the left hand
 The **Markdown file** that you created should open automatically. Copy the following text and paste it into `main.md`, replacing the text between `< >` where appropriate:
 
 ```markdown
-    ---
-    title: <your name>'s project
-    author: <your name>
-    date: <today's date as xx/xx/xxxx>
-    ---
-    # Section 1
+---
+title: <your name>'s project
+author: <your name>
+date: <today's date as xx/xx/xxxx>
+---
+# Section 1
 
-    Welcome to my document, which contains many fantastic ideas! Read on...
+Welcome to my document, which contains many fantastic ideas! Read on...
 
-    ## Subsection 1.1
+## Subsection 1.1
 
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
-    ## Subsection 1.2
+## Subsection 1.2
 
-    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque  ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque  ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
 ```
 
 Think of this file -- `main.md` -- as the primary document in which you'll draft your writing. **For the purposes of this tutorial, I recommend you name it `main.md`.
