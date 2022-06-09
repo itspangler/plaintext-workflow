@@ -22,8 +22,8 @@
 - [Zotero workflow tips](https://lauramay.live/2020/07/zotero-note-taking-workflow/)
 - to figure out where Zotero is hard-saving PDFs on your machine: go to `Zotero` > `Preferences` > `Advanced` > `Files & Folders` and check the Data Directory Location
 - export an entire library or folder with `cmd + a` (to select everything) > right-click > `export items`
-- `cmd + a + right arrow` open all parent elements
-- `cmd + a + left arrow` close all parent elements
+- `cmd + a + ➡️` open all parent elements
+- `cmd + a + ⬅️` close all parent elements
 - reveal where content was saved by right-clicking on a parent item and selecting `show file`
 - to automatically nest an item that was copied into Zotero without metadata within a parent item, select `create parent item` > `manuel entry`
 - [merge duplicate entries in Zotero](https://guides.lib.fsu.edu/zotero/content/organize#:~:text=Merging%20Duplicates,column%20to%20merge%20the%20items.)
@@ -66,6 +66,9 @@ also note that *most* of these are replicable on a Windows machine by replacing 
 - `cmd + w` close a tab
 - `cmd + q` quit an application
 - `cmd + r` refresh (normally in a web browser)
+
+- `cmd + option + ⬅️` OR `ctrl + shift + tab` cycle one tab to the left
+- `cmd + option + ➡️` OR `ctrl + tab` cycle one tab to the right
 - `cmd + 1` move to your leftmost table
 - `cmd + 9` move to your rightmost tab
 - `cmd + <number if 2-8>` immediately move to the tab in `<number if 2-8>` position of all tabs
