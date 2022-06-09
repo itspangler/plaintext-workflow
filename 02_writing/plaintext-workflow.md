@@ -107,10 +107,6 @@ If not, just download the editor of your choice, the way you normally do, and pr
 
 A "package manager" is just a handy program that 1) installs applications and software packages 2) into a sensible directory on your machine. You can only use Homebrew from Terminal, the native Mac interface for navigating an operating system via text commands. This is in contrast to something like the [Finder app](https://en.wikipedia.org/wiki/Finder_(software)), a [graphical user interface](https://en.wikipedia.org/wiki/Graphical_user_interface) that relies on point-and-click, drag-and-drop commands.
 
-Real programmers and software/app developers (e.g., not me) are fond of Homebrew and other package managers because it allows them to toggle back and forth between language versions (e.g., sometimes they have to flip between Python 2.7 and Python 3, depending on the project).
-
-I don't really do this. Personally, I like Homebrew for the ease of use. Installing new programs with it is fast, easy, and clean. I hope you like it too!
-
 ### 2.2.2. Install Homebrew from the Terminal
 
 To install Homebrew, you first need to open your Mac's Terminal.
@@ -169,23 +165,24 @@ You should now see this folder appear in the **file tree pane** on the left hand
 
 The **Markdown file** that you created should open automatically. Copy the following text and paste it into `main.md`, replacing the text between `< >` where appropriate:
 
-        ---
-        title: <your name>'s project
-        author: <your name>
-        date: <today's date as xx/xx/xxxx>
-        ---
-        # Section 1
+```markdown
+    ---
+    title: <your name>'s project
+    author: <your name>
+    date: <today's date as xx/xx/xxxx>
+    ---
+    # Section 1
 
-        Welcome to my document, which contains many fantastic ideas! Read on...
+    Welcome to my document, which contains many fantastic ideas! Read on...
 
-        ## Subsection 1.1
+    ## Subsection 1.1
 
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
-        ## Subsection 1.2
+    ## Subsection 1.2
 
-        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque  ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-
+    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque  ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+```
 
 Think of this file -- `main.md` -- as the primary document in which you'll draft your writing. **For the purposes of this tutorial, I recommend you name it `main.md`.
 
