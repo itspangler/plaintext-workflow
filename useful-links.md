@@ -56,7 +56,7 @@ also note that *most* of these are replicable on a Windows machine by replacing 
 ##### cursor movement
 - `cmd + <arrow>` move cursor all the way towards arrow direction
 - `cmd + shift + arrow` select all text towards arrow direction
-- `option + shift + arrow` select all text towards arrow direction
+- `option + shift + arrow` select whole word towards arrow direction
 
 ##### tab and application control
 - `cmd + n` new window
