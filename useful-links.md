@@ -29,6 +29,8 @@
 - [merge duplicate entries in Zotero](https://guides.lib.fsu.edu/zotero/content/organize#:~:text=Merging%20Duplicates,column%20to%20merge%20the%20items.)
 - a script to [programmatically merge all duplicates](https://github.com/escaped-echidna/zotero_merge_all_duplicates)
 - check out [Zotero source code on Github](https://github.com/zotero)
+- learn about what you can do with the [Zotero API](https://www.zotero.org/support/dev/web_api/v3/basics)
+- University of Michigan guide for linking [Zotero to Dropbox](https://guides.lib.umich.edu/c.php?g=283066&p=1887491) (and here's one from [Washington State University](https://libguides.libraries.wsu.edu/c.php?g=768677&p=5514205))
 
 #### Writing stuff
 
@@ -57,7 +59,7 @@ also note that *most* of these are replicable on a Windows machine by replacing 
 - `cmd + shift + arrow` select all text towards arrow direction
 - `option + shift + arrow` select whole word towards arrow direction
 
-##### tab and application control
+##### tab and application control + file management
 - `cmd + n` new window
 - `cmd + t` new tab
 - `cmd + shift + t` reopen last closed tab
@@ -72,6 +74,8 @@ also note that *most* of these are replicable on a Windows machine by replacing 
 - `cmd + 1` move to your leftmost table
 - `cmd + 9` move to your rightmost tab
 - `cmd + <number if 2-8>` immediately move to the tab in `<number if 2-8>` position of all tabs
+
+- `cmd + ⬇️` open a highlighted file (this *might* be mac only)
 
 ##### deletion
 - `fn + delete` delete to right of cursor
