@@ -1,25 +1,12 @@
-# Activity 2: Writers on Writing (15 minutes)
+# Activity 2 (30 minutes)
 
-### Step one
+In the first activity, we confronted feelings and emotions that we have when we think about writing. However, we didn't actually confront the process or practice of writing itself. This activity serves as a prompt to think about the tools and technologies that writing requires of us.
 
-Read this excerpt from Wendy Belcher's (2019) book about writing
+### Read these quotes
 
-#### UNDERSTANDING FEELINGS ABOUT WRITING
-
-Writing is to academia what sex was to nineteenth-century Vienna: everybody does it and nobody talks about it.
-
-A leading scholar of productivity found that most academics were more willing to talk about their most personal problems, including sexual dysfunction, than about problems with writing (Boice 1990, 1). The prevalent belief among academics seems to be that writing, like sex, should come naturally, and should be performed in polite privacy.
-
-Because of this silence, writing dysfunction is commonplace in academia. A survey of over sixteen thousand full-time faculty in the United States revealed that almost a fifth did not read or write scholarship in the past two years (Eagan et al. 2014, 9, 29–30, 33). In addition, almost a third had not published any piece of writing in that time. Over half of them spent less than an hour a day reading and writing scholarship. Furthermore, these statistics are self-reported and so reflect the activities of only those organized enough to respond to the survey. A large-scale study without this bias, of actual publication rates for all faculty members in a province, found that many did not publish: two-thirds of the humanities faculty and one third of the social science faculty had not published even one article in the past eight years (Larivière et al. 2010, 48). In other words, unproductive academics are common. Since publication is the major marker of productivity in academia,
-these statistics about low productivity are surprising. Or are they?
-
-You don’t have to be Freud to figure out that academia’s silence about writing may be repressive. Writing is, after all, a creative process; and like any such process, it depends on human connection. If you try to create in an environment where sharing is discouraged, dysfunction is the inevitable result. Certainly, many have found that talking about their struggles with writing has been freeing. The lesson: learning to talk about writing is an important key to becoming a productive writer. One of the reasons that academics don’t talk about writing is that it involves talking about feelings. Academics tend to be more comfortable with the rational than the emotional. Therefore, even if we do manage to talk about writing, we’re more likely to talk about content than process. So the first step to success is for you to acknowledge your feelings about writing. Mindfulness is essential. Let’s start with a broad question. What feelings come up when you contemplate writing?
-
->"I pondered why it was that Mrs Seton had no money to leave us; and what effect poverty has on the mind; and what effect wealth has on the mind; and I thought of the queer old gentlemen I had seen that morning with tufts of fur upon their shoulders; and I remembered how if one whistled one of them ran; and I thought of the organ booming in the chapel and, of the shut doors of the library; and I thought how unpleasant it is to be locked out; and I thought how it is worse perhaps to be locked in; and, thinking of the safety and prosperity of the one sex and the poverty and insecurity of the other and of the effect of tradition and of the lack of tradition upon the mind of a writer, I thought at last that it was time to roll up the crumpled skin of the day, with its arguments and its impressions and its anger and its laughter, and cast it into the hedge."
+>"I pondered... what effect poverty has on the mind; and what effect wealth has on the mind; and I thought of the queer old gentlemen I had seen that morning with tufts of fur upon their shoulders; and I remembered how if one whistled one of them ran; and I thought of the organ booming in the chapel and, of the shut doors of the library; and I thought how unpleasant it is to be locked out; and I thought how it is worse perhaps to be locked in; and, thinking of the safety and prosperity of the one sex and the poverty and insecurity of the other and of the effect of tradition and of the lack of tradition upon the mind of a writer, I thought at last that it was time to roll up the crumpled skin of the day, with its arguments and its impressions and its anger and its laughter, and cast it into the hedge."
 >
 <p align="right">—Virginia Woolf, <i>A Room of One's Own</i> (1929)</p>
-
-
 
 >"Virginia Woolf, in her book A Room of One’s Own, wrote that in order for a woman to write fiction she must have two things, certainly: a room of her own (with key and lock) and enough money to support herself.
 >
@@ -31,4 +18,29 @@ You don’t have to be Freud to figure out that academia’s silence about writi
 >
 <p align="right">-Stephen King, <i>On Writing: A Memoir of the Craft</i> (2002)</p>
 
-### Step two
+>"Before we met, I had spent a lifetime devoted to Wittgenstein's idea that the inexpressible is contained—inexpressibly!—in the expressed. This idea gets less air time than his more reverential *Whereof one cannot speak thereof one must be silent*, but it is, I think, the deeper idea. Its paradox is, quite literally, *why I write*, or how I feel able to keep writing.
+>
+>"For it doesn't feed or exalt any angst one may feel about the incapacity to express, in words, that which eludes them. It doesn't punish what can be said for what, by definition, it cannot be. Nor does it ham it up by miming a constricted throat: *Lo, what I would say, were words good enough.* Words are good enough."
+>
+<p align="right">-Maggie Nelson, <i>The Argonauts</i> (2016)</p>
+
+### Spend 15 minutes responding to these questions
+
+1. what is writing?
+2. what is required (for you) to write?
+3. what interferes with (your) writing process?
+
+Reply to these however you like: in general, individually, in conversation with the above quotes if you wish, etc.
+
+### Once we're done...
+
+Separate into smaller groups again for ~10 minutes to discuss the following as a group. **Elect one person to share answers with full working group when we return.**
+
+1. what did your 10-minute reflection reveal to you? did you realize or notice anything that you don't typically think about when writing?
+2. where do your writing preferences tend to harmonize (e.g., stuff most folks agree on/use)? are there patterns in preference across multiple people? why do you think that is?
+3. where do your writing preferences tend to diverge? among folks whose styles differ, why do you
+4. if you wrote down that you were ambivalent about the writing process entirely, share why.
+
+### After that...
+
+We'll return to the Big Group and spokespeople will share key points/observations from the activity for ~10 minutes.
