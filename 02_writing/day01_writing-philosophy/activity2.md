@@ -2,7 +2,9 @@
 
 In the first activity, we confronted feelings and emotions that we have when we think about writing. However, we didn't actually confront the process or practice of writing itself. This activity serves as a prompt to think about the tools and technologies that writing requires of us.
 
-### Read these quotes
+### Step one
+
+Read these quotes.
 
 >"I pondered... what effect poverty has on the mind; and what effect wealth has on the mind; and I thought of the queer old gentlemen I had seen that morning with tufts of fur upon their shoulders; and I remembered how if one whistled one of them ran; and I thought of the organ booming in the chapel and, of the shut doors of the library; and I thought how unpleasant it is to be locked out; and I thought how it is worse perhaps to be locked in; and, thinking of the safety and prosperity of the one sex and the poverty and insecurity of the other and of the effect of tradition and of the lack of tradition upon the mind of a writer, I thought at last that it was time to roll up the crumpled skin of the day, with its arguments and its impressions and its anger and its laughter, and cast it into the hedge."
 >
@@ -19,21 +21,25 @@ In the first activity, we confronted feelings and emotions that we have when we 
 <p align="right">-Stephen King, <i>On Writing: A Memoir of the Craft</i> (2002)</p>
 
 
->"Before we met, I had spent a lifetime devoted to Wittgenstein's idea that the inexpressible is contained—inexpressibly!—in the expressed. This idea gets less air time than his more reverential *Whereof one cannot speak thereof one must be silent*, but it is, I think, the deeper idea. Its paradox is, quite literally, *why I write*, or how I feel able to keep writing.
->
->"For it doesn't feed or exalt any angst one may feel about the incapacity to express, in words, that which eludes them. It doesn't punish what can be said for what, by definition, it cannot be. Nor does it ham it up by miming a constricted throat: *Lo, what I would say, were words good enough.* Words are good enough."
+>“Most of my writing usually feels to me like a bad idea, which makes it hard for me to know which ideas feel bad because they have merit, and which ones feel bad because they don’t. Often I watch myself gravitating toward the bad idea, as if the final girl in a horror movie, albeit one sitting in a Tuff Shed at a desk sticky with milk. But somewhere along the line, from my heroes, whose souls were forged in fires infinitely hotter than mine, I gained an outsized faith in articulation itself as its own form of protection.”
+>...
+“Once I wrote a book about domesticity in the poetry of certain gay men (Ashbery, Schuyler) and some women (Mayer, Notley). I wrote this book when I was living in New York City in a teeny, too-hot attic apartment on a Brooklyn thoroughfare underlined by the F train. I had an unusable stove filled with petrified mouse droppings, an empty fridge save for a couple of beers and yogurt peanut honey Balance bars, a futon on a piece of plywood unevenly balanced on milk crates for a bed, and a floor through which I could hear Standcleartheclosingdoors morning, noon, and night. I spent approximately seven hours a day lying in bed in this apartment, if that. Mostly I slept elsewhere. I wrote most everything I wrote and read most everything I read in public, just as I am writing this in public now.”
 >
 <p align="right">-Maggie Nelson, <i>The Argonauts</i> (2016)</p>
 
-### Spend 15 minutes responding to these questions
+Each of these quotes reflects on writing, and the writing process, from different perspectives. The first, a critical reflection on women and fiction writing in the early 20th century; the second, a critique (constructive) of the first; the third, a pull quote from the beginning of a memoir about writing; and the fourth, an author's comments on when and where writing feels good. In order: feminist theory, Black feminist theory, supernatural fiction, queer autotheory.
+
+What do these different perspectives mean? How might they structure the when, where, why, and how of the authors' writing? Take what you will from these quotes, and bring them with you into the next section.
+
+Now, spend 10 minutes responding to these questions, however you like:
 
 1. what is writing?
 2. what is required (for you) to write?
 3. what interferes with (your) writing process?
 
-Reply to these however you like: in general, individually, in conversation with the above quotes if you wish, etc.
+### Step two
 
-### Once we're done...
+Once you're done...
 
 Separate into smaller groups again for ~10 minutes to discuss the following as a group. **Elect one person to share answers with full working group when we return.**
 
@@ -42,6 +48,6 @@ Separate into smaller groups again for ~10 minutes to discuss the following as a
 3. where do your writing preferences tend to diverge? among folks whose styles differ, why do you
 4. if you wrote down that you were ambivalent about the writing process entirely, share why.
 
-### After that...
+### Step three
 
-We'll return to the Big Group and spokespeople will share key points/observations from the activity for ~10 minutes.
+We'll return to the Big Group and spokespeople will share key points/observations from the activity for another ~10 minutes.
