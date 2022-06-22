@@ -9,9 +9,7 @@ In the first activity, we confronted feelings and emotions that we have when we 
 <p align="right">—Virginia Woolf, <i>A Room of One's Own</i> (1929)</p>
 
 
->"Virginia Woolf, in her book A Room of One’s Own, wrote that in order for a woman to write fiction she must have two things, certainly: a room of her own (with key and lock) and enough money to support herself.
->
->"What then are we to make of Phillis Wheatley, a slave, who owned not even herself? This sickly, frail black girl who required a servant of her own at times—her health was so precarious—and who, had she been white, would have been easily considered the intellectual superior of all the women and most of the men in the society of her day. ... To be an artist and a black woman, even today, lowers our status in many respects, rather than raises it: and yet, artists we will be.”
+>"Virginia Woolf, in her book A Room of One’s Own, wrote that in order for a woman to write fiction she must have two things, certainly: a room of her own (with key and lock) and enough money to support herself. What then are we to make of Phillis Wheatley, a slave, who owned not even herself? This sickly, frail black girl who required a servant of her own at times—her health was so precarious—and who, had she been white, would have been easily considered the intellectual superior of all the women and most of the men in the society of her day. ... To be an artist and a black woman, even today, lowers our status in many respects, rather than raises it: and yet, artists we will be.”
 >
 <p align="right">—Alice Walker, <i>In Search of our Mothers' Gardens</i> (1983)</p>
 
