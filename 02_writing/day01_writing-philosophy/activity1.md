@@ -17,14 +17,20 @@ these statistics about low productivity are surprising. Or are they?
 >
 >What feelings come up when you contemplate writing?
 
-### Step two
-
-Answer the following, in order. (These responses could be prose or they could simply be bulleted lists, etc.)
+Then, answer the following, in order. (These responses could be prose or they could simply be bulleted lists, etc.)
 
 1. What are your feelings about your experience of writing?
 2. What are the common elements in your negative feelings about writing?
 3. Consider any good memories and positive feelings you have of writing: What made that experience/those experiences good? What were the common denominators?
 
+### Step two
+
+We'll separate into smaller groups for about 10 minutes and share responses.
+
+Go number by number and compare notes. What are your common feelings? What common elements comprise your group's negative feelings?
+
+Elect a representative to report back to the Big Group with observations on what people shared and what differed.
+
 ### Step three
 
-In smaller groups, we'll share responses.
+Return to the Big Group and for about 10 minutes reps will share key points.
