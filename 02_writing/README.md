@@ -13,3 +13,4 @@ This section of the working group is broken up into 3 parts:
 - [A funny old article about bullshit](https://www-jstor-org.ezproxy.uky.edu/stable/25704887?seq=1)
 - [Fuck nuance](https://kieranhealy.org/files/papers/fuck-nuance.pdf)
 - [How to write a journal article in 12 weeks](https://wendybelcher.com/writing-advice/writing-your-journal-article-in-twelve/)
+- [They Say, I Say](https://wwnorton.com/books/9780393538700)
