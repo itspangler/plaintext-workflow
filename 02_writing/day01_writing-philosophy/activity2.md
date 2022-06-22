@@ -25,7 +25,7 @@ You don’t have to be Freud to figure out that academia’s silence about writi
 >
 >"What then are we to make of Phillis Wheatley, a slave, who owned not even herself? This sickly, frail black girl who required a servant of her own at times—her health was so precarious—and who, had she been white, would have been easily considered the intellectual superior of all the women and most of the men in the society of her day. ... To be an artist and a black woman, even today, lowers our status in many respects, rather than raises it: and yet, artists we will be.”
 >
-<p align="right">—Alice Walker, <i>In Search of our Mothers' Gardens<i> (1983)</p>
+<p align="right">—Alice Walker, <i>In Search of our Mothers' Gardens</i> (1983)</p>
 
 >"This is a short book because most books about writing are filled with bullshit. Fiction writers, present company included, don’t understand very much about what they do—not why it works when it’s good, not why it doesn’t when it’s bad. I figured the shorter the book, the less the bullshit."
 >
