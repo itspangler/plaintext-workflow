@@ -5,5 +5,5 @@
 This section of the working group is broken up into 3 parts:
 
 1. [Philosophy of writing](day01_writing-philosophy/activity1.md)
-2. [A practical approach to plain text writing](/activity2.md)
+2. [A practical approach to plain text writing](day01_writing-philosophy/activity2.md)
 3. Reflecting on plain text, philosophy, practice, etc.
