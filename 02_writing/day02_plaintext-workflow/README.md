@@ -1,4 +1,4 @@
-# A PLAIN TEXT WORKFLOW FOR ACADEMIC WRITING
+# A plain text workflow for academic writing
 
 # Goals
 
