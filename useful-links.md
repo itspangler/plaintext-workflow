@@ -14,6 +14,7 @@
 - [How to export article citations from Google Scholar](https://uri.libguides.com/google/gscholexport)
 - [Tor browser](https://www.torproject.org/download/) and [Opera](https://www.opera.com/) for VPN/private browsing
 - AVOID [sci-hub](https://en.wikipedia.org/wiki/Sci-Hub) and [b-ok.xyz](https://b-ok.xyz/)
+- [Remarkable](https://remarkable.com/) for note-taking
 
 #### Zotero-specific stuff
 
