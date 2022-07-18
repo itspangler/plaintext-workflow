@@ -1,4 +1,4 @@
-# Everything you need to know about GitHub in one short page
+<!-- # Everything you need to know about GitHub in one short page
 
 ### What's GitHub?
 
@@ -57,4 +57,4 @@ Git tracks changes in a project can forget about the hard work of tracking chang
 
 GitHub is a free online service that makes it very easy to create projects Git-friendly projects; e.g., projects in which Git can automatically track changes.
 
-Using this workflow will allow you to easily examine old versions of a project or file, which means it also functions as a handy—and free—cloud backup.
+Using this workflow will allow you to easily examine old versions of a project or file, which means it also functions as a handy—and free—cloud backup. -->
