@@ -5,6 +5,7 @@
 - Article about [data organization in spreadsheets](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989)
 - [How to name files](https://speakerdeck.com/jennybc/how-to-name-files)
 - [Intro to GitHub](https://www.youtube.com/watch?v=BCQHnlnPusY) (this guy's videos are amazing for those of you who want to learn about programming and creative coding!)
+- A written tutorial to [getting started in GitHub](https://ourcodingclub.github.io/tutorials/git/)
 
 #### Research tools, tips, & techniques
 - use quotation marks to return exact matches, e.g., `risk management` will return something different than `"risk management"`
@@ -37,6 +38,14 @@
 
 - [A history of TeX (and its extensions)](https://www.authorea.com/users/303998/articles/515591-should-i-install-latex-miktex-or-texstudio?commit=7356239b60ea061b91904007c6036903b4b4d8f3)
 - [A writeup about plaintext](https://medium.com/adventures-in-consumer-technology/plaintext-markup-languages-cd19bc4274f0)
+
+#### Spatial database management
+
+- 15-minute [tutorial on installing PostGIS and PostgreSQL](https://www.youtube.com/watch?v=tTUM9XfDvqk&t=0s) (Part 1 of 2)
+- 15-minute [tutorial on loading spatial data using PostGIS](https://www.youtube.com/watch?v=vvZHtEcbEbI) (Part 2 of 2)
+- Great [tutorial on using PostGIS in QGIS](https://www.youtube.com/watch?v=eddcoyLtqqs), and its [written companion](https://www.line-45.com/post/using-qgis-postgis-dynamic-duo)
+- A [talk on PostGIS](https://www.youtube.com/watch?v=g4DgAVCmiDE) from one of its creators (check out [his blog](http://blog.cleverelephant.ca/), too)
+- [10 things I've learnt about PostGIS](https://www.youtube.com/watch?v=93bX1AO95nY) talk
 
 #### Ian's handy keystroke cheatsheet
 
