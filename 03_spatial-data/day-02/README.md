@@ -1,6 +1,8 @@
-# Three softwares for spatial data management
+# Quick links to cheat sheets
 
-Today, we'll talk about GitHub, QGIS, and PostGIS. These softwares and services are useful for advanced data management, particularly with spatial data.
+- [GitHub](01_github-cheat-sheet)
+- [QGIS](02_qgis-data-cheat-sheet)
+- [PostGIS](03_postgis-cheat-sheet)
 
 # Assignment
 
