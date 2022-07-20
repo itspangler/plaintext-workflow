@@ -57,12 +57,4 @@ Git and GitHub are solution options. Git tracks changes in a project can forget 
 
 Using this workflow will allow you to easily examine old versions of a project or file, which means it also functions as a handy—and free—cloud backup.
 
-### Okay... but how??
-
-The GitHub workflow is fairly straightforward!
-
-First, you'll want to download 
-
-It consists of three actions: commit, pull, push.
-
-1. **Commit.** Every time you save a file, GitHub
+# [Click this link to return to the assignment](./day-02)
