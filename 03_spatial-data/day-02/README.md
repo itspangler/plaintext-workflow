@@ -1,8 +1,8 @@
 # Quick links to cheat sheets
 
-- [GitHub](01_github-cheat-sheet)
-- [QGIS](02_qgis-data-cheat-sheet)
-- [PostGIS](03_postgis-cheat-sheet)
+- [GitHub](01_github-cheat-sheet.md)
+- [QGIS](02_qgis-data-cheat-sheet.md)
+- [PostGIS](03_postgis-cheat-sheet.md)
 
 # Assignment
 
