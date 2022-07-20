@@ -79,7 +79,3 @@ If you've used QGIS, you'll be familiar with geoprocessing functions like `buffe
 The DB Manager allows you to perform all of these functions, and more, through simple text commands in the DB Manager.
 
 Again, these are just some of many ways to query and manipulate spatial data. There's no universal, one-size-fits-all answer!
-
-# Assignment
-
-Read through sections 
