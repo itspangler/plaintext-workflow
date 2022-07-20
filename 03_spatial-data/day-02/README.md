@@ -4,7 +4,7 @@
 - [QGIS](02_qgis-data-cheat-sheet.md)
 - [PostGIS](03_postgis-cheat-sheet.md)
 
-# Assignment
+# Exercise
 
 Before we meet again on 7/27, complete one of the following:
 
