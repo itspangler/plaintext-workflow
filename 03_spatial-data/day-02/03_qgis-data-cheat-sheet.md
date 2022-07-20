@@ -45,3 +45,5 @@ Once you get it running, you'll see something sort of like this:
 ![qgis](https://cartinal.leventhalmap.org/assets/img/1-qgis-labeled.e4e44daa.gif)
 
 There's a nice [guide from the Leventhal Map & Education Center](https://cartinal.leventhalmap.org/guides/get-started-qgis/#what-is-qgis) with instructions on getting started with QGIS. If you've never used the software before, I recommend checking it out. You might also look into [LMEC's Making Sense of Maps & Data course](https://cartinal.leventhalmap.org/guides/making-sense-maps-data/session-2/part-2.html#raster-data-the-earth-as-a-spreadsheet), from which I cribbed the images in this cheat sheet.
+
+# [Click this link to return to the assignment](./)
