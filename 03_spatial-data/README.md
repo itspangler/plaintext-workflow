@@ -9,6 +9,6 @@ The goal of all this is to provide you with some useful tools and technologies f
 The third section will be broken up into three primary topics, plus an open lab where you can meet with us to ask questions about the assignment:
 
 1. Introduction to version control and spatial databases for geographers (7/18)
-2. Optional open lab (7/20)
-3. Updates on project migration (7/25)
+2. Integrating your projects with GitHub, QGIS, or PostGIS (7/20)
+3. Optional open lab (7/25)
 4. Reflections, challenges, and looking ahead (7/27)

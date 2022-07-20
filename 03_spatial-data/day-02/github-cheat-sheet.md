@@ -1,4 +1,4 @@
-<!-- # Everything you need to know about GitHub in one short page
+# A quick intro to GitHub
 
 ### What's GitHub?
 
@@ -53,8 +53,16 @@ As you work on it, you might want to save it as a new document to avoid overwrit
 
 This isn't easy to read, it's tough to organize, and it's nearly impossible to triangulate where or when a change was made and what the change replaced.
 
-Git tracks changes in a project can forget about the hard work of tracking changes in a project over time, so you don't have to.
+Git and GitHub are solution options. Git tracks changes in a project can forget about the hard work of tracking changes in a project over time, so you don't have to. GitHub is a free online service that makes it very easy to create projects Git-friendly projects; e.g., projects in which Git can automatically track changes.
 
-GitHub is a free online service that makes it very easy to create projects Git-friendly projects; e.g., projects in which Git can automatically track changes.
+Using this workflow will allow you to easily examine old versions of a project or file, which means it also functions as a handy—and free—cloud backup.
 
-Using this workflow will allow you to easily examine old versions of a project or file, which means it also functions as a handy—and free—cloud backup. -->
+### Okay... but how??
+
+The GitHub workflow is fairly straightforward!
+
+First, you'll want to download 
+
+It consists of three actions: commit, pull, push.
+
+1. **Commit.** Every time you save a file, GitHub
