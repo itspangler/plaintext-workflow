@@ -57,4 +57,4 @@ Git and GitHub are solution options. Git tracks changes in a project can forget 
 
 Using this workflow will allow you to easily examine old versions of a project or file, which means it also functions as a handy—and free—cloud backup.
 
-# [Click this link to return to the assignment](./day-02)
+# [Click this link to return to the assignment](./)
