@@ -16,7 +16,7 @@ That's not the only useful aspect of metadata, though! Because metadata is **[st
 
 In the context of Ian's work at the [Leventhal Map & Education Center](https://www.leventhalmap.org/), metadata is integral to cataloging and management of map collections. If you want to learn more about APIs and metadata at the Map Center, check out [this Jupyter notebook](https://hub-binder.mybinder.ovh/user/itspangler-cogapp-hack-day-4w5hm900/lab/tree/01_json-api.ipynb) for code snippets that demonstrate how to query the map collections via JSON and IIIF API.
 
-**TL;DR: having structured metadata gives people access points to programmatically retrieve information about objects (e.g., map collections), which is instrumental in developing cool web apps about those objects.**
+**TL;DR: having structured metadata gives people access points to programmatically retrieve information about objects (e.g., map collections), which is instrumental in developing cool web apps using those objects/collections.**
 
 ### Allmaps!
 
