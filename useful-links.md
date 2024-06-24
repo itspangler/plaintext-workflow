@@ -65,9 +65,10 @@ also note that *most* of these are replicable on a Windows machine by replacing 
 - `cmd + shift + z` redo
 
 ##### cursor movement
-- `cmd + <arrow>` move cursor all the way towards arrow direction
+- `cmd + arrow` move cursor all the way towards arrow direction
 - `cmd + shift + arrow` select all text towards arrow direction
 - `option + shift + arrow` select whole word towards arrow direction
+- `option + arrow` move cursor to end of word in arrow direction
 
 ##### tab and application control + file management
 - `cmd + n` new window
@@ -78,6 +79,7 @@ also note that *most* of these are replicable on a Windows machine by replacing 
 - `cmd + w` close a tab
 - `cmd + q` quit an application
 - `cmd + r` refresh (normally in a web browser)
+- `cmd + \`` cycle through multiple windows of same application (e.g., different Chrome pages)
 
 - `cmd + option + ⬅️` OR `ctrl + shift + tab` cycle one tab to the left
 - `cmd + option + ➡️` OR `ctrl + tab` cycle one tab to the right
