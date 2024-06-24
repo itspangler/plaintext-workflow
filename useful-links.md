@@ -79,7 +79,6 @@ also note that *most* of these are replicable on a Windows machine by replacing 
 - `cmd + w` close a tab
 - `cmd + q` quit an application
 - `cmd + r` refresh (normally in a web browser)
-- `cmd + \`` cycle through multiple windows of same application (e.g., different Chrome pages)
 
 - `cmd + option + ⬅️` OR `ctrl + shift + tab` cycle one tab to the left
 - `cmd + option + ➡️` OR `ctrl + tab` cycle one tab to the right
